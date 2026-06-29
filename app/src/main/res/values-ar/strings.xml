@@ -1,0 +1,255 @@
+<resources>
+    <!-- ========== App Level ========== -->
+    <string name="app_name">SoundScope</string>
+    <string name="app_name_en">SoundScope</string>
+    <string name="app_slogan">أكثر من مجرد مقياس ديسيبل — يفهم بيئتك الصوتية!</string>
+    <string name="app_slogan_short">يفهم بيئتك الصوتية</string>
+    <string name="app_thanks">شكراً لاستخدامك SoundScope 💚</string>
+
+    <!-- ========== Bottom Navigation ========== -->
+    <string name="tab_meter">مقياس الديسيبل</string>
+    <string name="tab_history">السجل</string>
+    <string name="tab_ai">تحليل الذكاء الاصطناعي</string>
+    <string name="tab_settings">الإعدادات</string>
+
+    <!-- ========== Meter Screen ========== -->
+    <string name="meter_title">SoundScope</string>
+    <string name="meter_start_hint">اضغط على الزر أدناه للبدء</string>
+    <string name="meter_start">بدء القياس</string>
+    <string name="meter_stop">إيقاف</string>
+    <string name="meter_pause">إيقاف مؤقت</string>
+    <string name="meter_resume">متابعة</string>
+    <string name="meter_paused_hint">⏸ القياس متوقف مؤقتاً. اضغط للمتابعة.</string>
+    <string name="meter_exit_desc">خروج من التطبيق</string>
+    <string name="meter_threshold_label">الحد %1$d</string>
+    <string name="meter_compliant">✅ يطابق معيار %1$s (≤ %2$d ديسيبل)</string>
+    <string name="meter_over_limit">يتجاوز حد %1$d ديسيبل بمقدار %2$s ديسيبل</string>
+    <string name="meter_suggest_denoise">تقليل الضوضاء</string>
+    <string name="meter_scene_mode">وضع %1$s</string>
+    <string name="meter_standard_label">المعيار: %1$s</string>
+
+    <!-- ========== Stats ========== -->
+    <string name="stat_max">الأقصى</string>
+    <string name="stat_min">الأدنى</string>
+    <string name="stat_avg">المتوسط</string>
+    <string name="stat_duration">المدة</string>
+    <string name="stat_avg_short">متوسط</string>
+    <string name="stat_max_short">أقصى</string>
+    <string name="stat_min_short">أدنى</string>
+    <string name="stat_duration_short">المدة</string>
+
+    <!-- ========== History Screen ========== -->
+    <string name="history_count">%1$d سجل</string>
+    <string name="history_empty">🔇</string>
+    <string name="history_empty_title">لا توجد سجلات</string>
+    <string name="history_empty_hint">اضغط على \"بدء القياس\" لتسجيل قياسك الأول</string>
+    <string name="history_delete">حذف السجل</string>
+    <string name="history_delete_all">حذف الكل</string>
+    <string name="history_delete_confirm">حذف هذا السجل؟</string>
+    <string name="history_delete_all_confirm">حذف جميع السجلات؟ لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="history_delete_all_action">تأكيد الحذف</string>
+    <string name="history_delete_all_desc">حذف الكل</string>
+
+    <!-- ========== AI Analysis Screen ========== -->
+    <string name="ai_analyzing">جاري التحليل...</string>
+    <string name="ai_analyze_btn">تحليل ذكي</string>
+    <string name="ai_no_record">🔇 لا توجد سجلات</string>
+    <string name="ai_no_record_hint">يرجى القياس أولاً في تبويب مقياس الديسيبل</string>
+    <string name="ai_current_data">📊 البيانات الحالية</string>
+    <string name="ai_switch_record">تبديل ›</string>
+    <string name="ai_local_mode">وضع القواعد المحلية</string>
+    <string name="ai_local_mode_hint">لم يتم تكوين API. تحليل أساسي فقط. إعداد →</string>
+    <string name="ai_report_title">تقرير التحليل</string>
+    <string name="ai_section_env">🌍 البيئة</string>
+    <string name="ai_section_health">💊 نصائح صحية</string>
+    <string name="ai_section_trend">📈 الاتجاه</string>
+    <string name="ai_section_action">🎯 توصيات</string>
+    <string name="ai_section_fun">🦆 معلومة ممتعة</string>
+    <string name="ai_error_title">❌ فشل التحليل</string>
+    <string name="ai_empty_hint">🤖</string>
+    <string name="ai_empty_hint_text">اضغط على الزر لبدء التحليل</string>
+    <string name="ai_thinking">⏳ جاري التفكير...</string>
+    <string name="ai_chat_placeholder_on">اسأل: هل يؤثر هذا الضوضاء على النوم؟</string>
+    <string name="ai_chat_placeholder_off">يرجى إكمال التحليل أولاً</string>
+    <string name="ai_send">إرسال</string>
+    <string name="ai_summary_time">الوقت</string>
+    <string name="ai_summary_scene">المشهد</string>
+    <string name="ai_summary_duration">المدة</string>
+
+    <!-- ========== Settings Screen ========== -->
+    <string name="settings_section_user">المستخدم</string>
+    <string name="settings_section_appearance">المظهر</string>
+    <string name="settings_section_ai">إعدادات الذكاء الاصطناعي</string>
+    <string name="settings_section_language">اللغة</string>
+    <string name="settings_section_about">حول</string>
+    <string name="settings_nickname">الاسم المستعار</string>
+    <string name="settings_nickname_placeholder">تعيين اسم مستعار</string>
+    <string name="settings_nickname_hint">سيظهر اسمك في تقارير التحليل</string>
+    <string name="settings_theme_mode">السمة</string>
+    <string name="settings_theme_system">النظام</string>
+    <string name="settings_theme_light">فاتح</string>
+    <string name="settings_theme_dark">داكن</string>
+    <string name="settings_ai_enable">تفعيل التحليل الذكي</string>
+    <string name="settings_ai_enable_hint">عند التعطيل، يستخدم التحليل المحلي</string>
+    <string name="settings_ai_provider">مزود الذكاء الاصطناعي</string>
+    <string name="settings_api_key">API Key</string>
+    <string name="settings_api_key_placeholder">أدخل API Key</string>
+    <string name="settings_api_base_url">API Base URL</string>
+    <string name="settings_api_base_url_placeholder">https://...</string>
+    <string name="settings_model_name">اسم النموذج</string>
+    <string name="settings_model_name_placeholder">مثل qwen-turbo</string>
+    <string name="settings_ai_hint">💡 متوافق مع أي مزود OpenAI. احصل على المفاتيح من وحدة التحكم لكل مزود. يتم التعبئة التلقائية.</string>
+    <string name="settings_default_model">النموذج الافتراضي: %1$s</string>
+    <string name="settings_show">إظهار</string>
+    <string name="settings_hide">إخفاء</string>
+    <string name="settings_about_app_name">اسم التطبيق</string>
+    <string name="settings_about_app_value">SoundScope</string>
+    <string name="settings_about_version">الإصدار</string>
+    <string name="settings_about_version_value">v1.4.0</string>
+    <string name="settings_about_slogan">الشعار</string>
+    <string name="settings_about_developer">المطور</string>
+    <string name="settings_about_developer_value">0xzzyyxx</string>
+    <string name="settings_about_stack">التقنيات</string>
+    <string name="settings_about_stack_value">Kotlin + Compose + Room</string>
+    <string name="settings_about_license">الترخيص</string>
+    <string name="settings_about_license_value">AGPL v3</string>
+    <string name="settings_about_min_sdk">الحد الأدنى للنظام</string>
+    <string name="settings_about_min_sdk_value">Android 8.0 (API 26)</string>
+    <string name="settings_exit">خروج من التطبيق</string>
+
+    <!-- ========== Language Settings ========== -->
+    <string name="lang_system">النظام</string>
+    <string name="lang_chinese">简体中文</string>
+    <string name="lang_english">English</string>
+    <string name="lang_traditional_chinese">繁體中文</string>
+    <string name="lang_french">Français</string>
+    <string name="lang_portuguese">Português</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_hindi">हिन्दी</string>
+
+    <!-- ========== Permissions ========== -->
+    <string name="permission_title">يلزم إذن الميكروفون</string>
+    <string name="permission_message">يحتاج SoundScope إلى الميكروفون لقياس الضوضاء. يرجى منح الإذن للمتابعة.</string>
+    <string name="permission_denied">تم رفض الإذن. لا يمكن القياس.</string>
+    <string name="permission_grant">منح الإذن</string>
+
+    <!-- ========== Common Dialogs ========== -->
+    <string name="dialog_exit_title">خروج من التطبيق</string>
+    <string name="dialog_exit_message">هل تريد بالتأكيد الخروج من SoundScope؟</string>
+    <string name="dialog_exit">خروج</string>
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="dialog_confirm">تأكيد</string>
+
+    <!-- ========== States ========== -->
+    <string name="state_measuring">جاري القياس</string>
+    <string name="state_ready">جاهز</string>
+
+    <!-- ========== Decibel Levels ========== -->
+    <string name="db_level_silence_label">صمت</string>
+    <string name="db_level_silence_desc">غرفة عازلة للصوت</string>
+    <string name="db_level_quiet_label">هادئ</string>
+    <string name="db_level_quiet_desc">همس، غرفة نوم ليلاً</string>
+    <string name="db_level_fairly_quiet_label">هادئ نسبياً</string>
+    <string name="db_level_fairly_quiet_desc">مكتبة، مكتب هادئ</string>
+    <string name="db_level_moderate_label">معتدل</string>
+    <string name="db_level_moderate_desc">مكتب عادي، أزيز ثلاجة</string>
+    <string name="db_level_average_label">متوسط</string>
+    <string name="db_level_average_desc">محادثة عادية، حركة مرور خفيفة</string>
+    <string name="db_level_loud_label">عالٍ</string>
+    <string name="db_level_loud_desc">مكتب مزدحم، مكنسة كهربائية</string>
+    <string name="db_level_very_loud_label">عالٍ جداً</string>
+    <string name="db_level_very_loud_desc">شارع مزدحم، غسالة</string>
+    <string name="db_level_noisy_label">صاخب</string>
+    <string name="db_level_noisy_desc">مترو، دراجة نارية</string>
+    <string name="db_level_extremely_loud_label">صاخب جداً</string>
+    <string name="db_level_extremely_loud_desc">منشار كهربائي، حفلة روك</string>
+    <string name="db_level_dangerous_label">خطر</string>
+    <string name="db_level_dangerous_desc">إقلاع طائرة، طلقة نارية</string>
+
+    <!-- ========== Scene Modes ========== -->
+    <string name="scene_general_label">عام</string>
+    <string name="scene_general_standard">إرشادات منظمة الصحة العالمية للضوضاء البيئية</string>
+    <string name="scene_general_scenario">المنزل، التنقل والبيئات اليومية</string>
+    <string name="scene_general_tip">يجب أن تبقى البيئات اليومية تحت 60 ديسيبل؛ تجاوزها يؤثر على جودة الحياة</string>
+
+    <string name="scene_sleep_label">النوم</string>
+    <string name="scene_sleep_standard">معيار منظمة الصحة العالمية لغرف النوم ليلاً</string>
+    <string name="scene_sleep_scenario">غرفة نوم، سكن وبيئات النوم</string>
+    <string name="scene_sleep_tip">توصي منظمة الصحة العالمية بغرف نوم ≤ 30 ديسيبل ليلاً؛ تجاوزها يؤثر على جودة النوم</string>
+
+    <string name="scene_study_label">الدراسة</string>
+    <string name="scene_study_standard">معيار منظمة الصحة العالمية للفصول الدراسية</string>
+    <string name="scene_study_scenario">غرفة دراسة، فصل، مكتبة</string>
+    <string name="scene_study_tip">بيئة الدراسة ≤ 35 ديسيبل؛ الضوضاء تشتت الانتباه</string>
+
+    <string name="scene_office_label">المكتب</string>
+    <string name="scene_office_standard">معيار الجودة البيئية GB 3096</string>
+    <string name="scene_office_scenario">مكتب، غرفة اجتماعات وبيئات العمل</string>
+    <string name="scene_office_tip">بيئة المكتب ≤ 50 ديسيبل؛ تجاوزها يقلل الكفاءة</string>
+
+    <string name="scene_construction_label">البناء</string>
+    <string name="scene_construction_standard">معيار OSHA للتعرض المهني</string>
+    <string name="scene_construction_scenario">مواقع البناء، المصانع والبيئات عالية الضوضاء</string>
+    <string name="scene_construction_tip">حد التعرض 8 ساعات: 85 ديسيبل؛ سدادات الأذن إلزامية فوق ذلك</string>
+
+    <!-- ========== AI Providers ========== -->
+    <string name="provider_qwen">Qwen (DashScope)</string>
+    <string name="provider_ernie">ERNIE (Qianfan)</string>
+    <string name="provider_zhipu">Zhipu GLM</string>
+    <string name="provider_deepseek">DeepSeek</string>
+    <string name="provider_openai">OpenAI</string>
+
+    <!-- ========== AI Local Rule Analysis ========== -->
+    <string name="local_env_level">البيئة الحالية: %1$s (%2$s)، المتوسط %3$s ديسيبل</string>
+    <string name="local_health_danger">⚠️ يتجاوز حد OSHA لـ 8 ساعات (85 ديسيبل). التعرض المطول قد يضر السمع. استخدم سدادات الأذن فوراً.</string>
+    <string name="local_health_warning">التعرض المطول لهذا الصوت قد يسبب التهيج وانخفاض التركيز. ابتعد أو قلل الضوضاء.</string>
+    <string name="local_health_over_limit">توصي منظمة الصحة العالمية بـ %1$s ≤ %2$d ديسيبل. التجاوز %3$s ديسيبل.</string>
+    <string name="local_health_ok">✅ الصوت الحالي يطابق معيار %1$s (≤ %2$d ديسيبل). بيئة صحية.</string>
+    <string name="local_trend_stable">مستوى الضوضاء مستقر، تقلبات ضئيلة.</string>
+    <string name="local_trend_moderate">مستوى الضوضاء متقلب بعض الشيء، أصوات متنوعة.</string>
+    <string name="local_trend_unstable">مستوى الضوضاء متقلب جداً، مصادر متقطعة محتملة.</string>
+    <string name="local_trend_template">قياس %1$d ثانية، المدى %2$s - %3$s ديسيبل.</string>
+    <string name="local_action_danger">توصيات: 1) سدادات أذن؛ 2) الابتعاد عن المصدر؛ 3) فحص السمع للتعرض المطول؛ 4) الإبلاغ للسلطات</string>
+    <string name="local_action_over_limit">توصيات: 1) إغلاق الأبواب/النوافذ؛ 2) سدادات أو ضوضاء بيضاء؛ 3) الاتصال بالإدارة/المصدر؛ 4) حفظ كدليل</string>
+    <string name="local_action_ok">توصيات: بيئة مريحة. أنشطة %1$s طبيعية. لا حاجة لخطوات إضافية.</string>
+    <string name="local_fun_anechoic">مستوى غرفة عازلة، أهدأ من الهمس</string>
+    <string name="local_fun_whisper">مثل همس خفيف أو غرفة هادئة</string>
+    <string name="local_fun_library">هادئ كالمكتبة</string>
+    <string name="local_fun_fridge">مثل أزيز الثلاجة</string>
+    <string name="local_fun_conversation">مثل محادثة عادية أو مرور خفيف</string>
+    <string name="local_fun_office">مثل مكتب مزدحم أو مكنسة كهربائية</string>
+    <string name="local_fun_street">مثل شارع مزدحم أو غسالة</string>
+    <string name="local_fun_subway">مثل مترو أو دراجة نارية عابرة</string>
+    <string name="local_fun_saw">مثل منشار كهربائي أو حفلة روك</string>
+    <string name="local_fun_plane">أعلى من إقلاع طائرة! خطير للغاية</string>
+    <string name="local_fun_ducks">، يعادل %1$d بطات تنقنق معاً 🦆</string>
+    <string name="local_cloud_fail">(فشل التحليل السحابي، الوضع المحلي) </string>
+    <string name="local_cloud_ask_fail">(فشل الطلب السحابي) </string>
+    <string name="local_parse_fail">(النموذج لم يُرجع JSON)</string>
+    <string name="local_data_summary">المشهد: %1$s، المتوسط: %2$s ديسيبل، الأقصى: %3$s ديسيبل، الأدنى: %4$s ديسيبل، المدة: %5$d ثانية</string>
+
+    <!-- Local Q&A -->
+    <string name="local_q_hearing_danger">المتوسط الحالي %1$.1f ديسيبل يتجاوز حد الأمان 85 ديسيبل. التعرض المطول يضر السمع. سدادات الأذن موصى بها.</string>
+    <string name="local_q_hearing_safe">%1$.1f ديسيبل الحالي ضمن النطاق الآمن، عموماً لا يضر السمع.</string>
+    <string name="local_q_reduce">جرّب: إغلاق النوافذ، سدادات الأذن، الضوضاء البيضاء، التفاوض مع المصدر، الإبلاغ للسلطات.</string>
+    <string name="local_q_sleep_over">توصي منظمة الصحة العالمية بغرف نوم ≤ 30 ديسيبل ليلاً. %1$.1f ديسيبل الحالي قد يؤثر على النوم. يوصى بتقليل الضوضاء.</string>
+    <string name="local_q_sleep_ok">توصي منظمة الصحة العالمية بغرف نوم ≤ 30 ديسيبل ليلاً. %1$.1f ديسيبل الحالي مناسب للنوم.</string>
+    <string name="local_q_default">الوضع المحلي يجيب فقط على الأسئلة الأساسية. قم بتكوين API للحصول على إجابات أذكى. المتوسط الحالي: %1$.1f ديسيبل.</string>
+
+    <!-- ========== AI Service Errors ========== -->
+    <string name="error_http">فشل: HTTP %1$d %2$s</string>
+    <string name="error_no_choices">تنسيق استجابة خاطئ: choices مفقود</string>
+    <string name="error_no_content">تنسيق استجابة خاطئ: message.content مفقود</string>
+    <string name="error_analyze_fail">فشل التحليل</string>
+    <string name="error_request_fail">فشل الطلب</string>
+
+    <!-- ========== AI Prompts ========== -->
+    <string name="prompt_system_zh">你是一个专业的声学环境分析师。请基于用户的噪音测量数据给出智能分析。\n严格输出 JSON 格式，字段如下：\n{\n  \"environmentLevel\": \"环境评估描述，例如：相当于繁忙咖啡厅\",\n  \"healthAdvice\": \"健康建议，引用 WHO 或国标阈值\",\n  \"trendAnalysis\": \"本次测量的波动分析（无历史数据时基于本次）\",\n  \"actionAdvice\": \"具体的行动建议\",\n  \"funFact\": \"趣味解读，可用比喻\"\n}\n只输出 JSON，不要 markdown 代码块，不要额外解释。</string>
+    <string name="prompt_user_zh">测量数据：\n- 场景：%1$s（推荐最大 %2$d dB）\n- 平均分贝：%3$s dB\n- 最大分贝：%4$s dB\n- 最小分贝：%5$s dB\n- 测量时长：%6$d 秒\n- 时间序列采样：%7$s\n\n请分析。</string>
+    <string name="prompt_data_summary_zh">以下是已分析的测量数据：\n%1$s</string>
+    <string name="prompt_system_en">You are a professional acoustic environment analyst. Analyze the user\'s noise measurement data.\nOutput strictly in JSON format with these fields:\n{\n  \"environmentLevel\": \"environment assessment, e.g., equivalent to a busy cafe\",\n  \"healthAdvice\": \"health advice citing WHO or national standards\",\n  \"trendAnalysis\": \"fluctuation analysis of this measurement\",\n  \"actionAdvice\": \"specific actionable recommendations\",\n  \"funFact\": \"fun interpretation, can use metaphors\"\n}\nOutput JSON only, no markdown code blocks, no extra explanation.</string>
+    <string name="prompt_user_en">Measurement data:\n- Scene: %1$s (recommended max %2$d dB)\n- Average: %3$s dB\n- Maximum: %4$s dB\n- Minimum: %5$s dB\n- Duration: %6$d seconds\n- Time series samples: %7$s\n\nPlease analyze.</string>
+    <string name="prompt_data_summary_en">The following is the analyzed measurement data:\n%1$s</string>
+</resources>

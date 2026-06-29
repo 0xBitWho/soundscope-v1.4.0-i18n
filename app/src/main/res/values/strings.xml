@@ -1,0 +1,256 @@
+<resources>
+    <!-- ========== 应用级 ========== -->
+    <string name="app_name">声探体验版</string>
+    <string name="app_name_en">SoundScope</string>
+    <string name="app_slogan">不只是测分贝，更懂你的声音环境！</string>
+    <string name="app_slogan_short">更懂你的声音环境</string>
+    <string name="app_thanks">感谢使用声探 SoundScope 💚</string>
+
+    <!-- ========== 底部导航 ========== -->
+    <string name="tab_meter">分贝仪</string>
+    <string name="tab_history">历史记录</string>
+    <string name="tab_ai">AI分析</string>
+    <string name="tab_settings">我的</string>
+
+    <!-- ========== 分贝仪主页 ========== -->
+    <string name="meter_title">声探 SoundScope</string>
+    <string name="meter_start_hint">点击下方按钮开始测量</string>
+    <string name="meter_start">开始测量</string>
+    <string name="meter_stop">停止测量</string>
+    <string name="meter_pause">暂停</string>
+    <string name="meter_resume">继续测量</string>
+    <string name="meter_paused_hint">⏸ 测量已暂停，点击继续恢复采集</string>
+    <string name="meter_exit_desc">退出应用</string>
+    <string name="meter_threshold_label">阈值 %1$d</string>
+    <string name="meter_compliant">✅ 当前符合 %1$s标准（≤ %2$d dB）</string>
+    <string name="meter_over_limit">超过%1$d dB 标准 %2$s dB</string>
+    <string name="meter_suggest_denoise">建议降噪</string>
+    <string name="meter_scene_mode">%1$s模式</string>
+    <string name="meter_standard_label">标准：%1$s</string>
+
+    <!-- ========== 统计 ========== -->
+    <string name="stat_max">最大值</string>
+    <string name="stat_min">最小值</string>
+    <string name="stat_avg">平均值</string>
+    <string name="stat_duration">时长</string>
+    <string name="stat_avg_short">平均</string>
+    <string name="stat_max_short">最大</string>
+    <string name="stat_min_short">最小</string>
+    <string name="stat_duration_short">时长</string>
+
+    <!-- ========== 历史记录页 ========== -->
+    <string name="history_count">共 %1$d 条记录</string>
+    <string name="history_empty">🔇</string>
+    <string name="history_empty_title">暂无测量记录</string>
+    <string name="history_empty_hint">点击「开始测量」按钮来记录您的第一次测量</string>
+    <string name="history_delete">删除记录</string>
+    <string name="history_delete_all">全部删除</string>
+    <string name="history_delete_confirm">确认删除这条测量记录？</string>
+    <string name="history_delete_all_confirm">确认删除所有测量记录？此操作不可撤销。</string>
+    <string name="history_delete_all_action">确认删除</string>
+    <string name="history_delete_all_desc">Delete all</string>
+
+    <!-- ========== AI 分析页 ========== -->
+    <string name="ai_analyzing">AI 分析中...</string>
+    <string name="ai_analyze_btn">AI 智能分析</string>
+    <string name="ai_no_record">🔇 暂无测量记录</string>
+    <string name="ai_no_record_hint">请先去「分贝仪」进行一次测量</string>
+    <string name="ai_current_data">📊 当前分析数据</string>
+    <string name="ai_switch_record">点击切换 ›</string>
+    <string name="ai_local_mode">本地规则模式</string>
+    <string name="ai_local_mode_hint">未配置大模型 API，仅基础分析。点击前往设置 →</string>
+    <string name="ai_report_title">AI 分析报告</string>
+    <string name="ai_section_env">🌍 环境评估</string>
+    <string name="ai_section_health">💊 健康建议</string>
+    <string name="ai_section_trend">📈 趋势分析</string>
+    <string name="ai_section_action">🎯 行动建议</string>
+    <string name="ai_section_fun">🦆 趣味解读</string>
+    <string name="ai_error_title">❌ 分析失败</string>
+    <string name="ai_empty_hint">🤖</string>
+    <string name="ai_empty_hint_text">点击上方按钮，开始 AI 分析</string>
+    <string name="ai_thinking">⏳ 思考中...</string>
+    <string name="ai_chat_placeholder_on">追问：这个噪音对睡眠有影响吗？</string>
+    <string name="ai_chat_placeholder_off">请先完成 AI 分析</string>
+    <string name="ai_send">发送</string>
+    <string name="ai_summary_time">时间</string>
+    <string name="ai_summary_scene">场景</string>
+    <string name="ai_summary_duration">时长</string>
+
+    <!-- ========== 设置页 ========== -->
+    <string name="settings_section_user">用户管理</string>
+    <string name="settings_section_appearance">外观</string>
+    <string name="settings_section_ai">AI 大模型设置</string>
+    <string name="settings_section_language">语言</string>
+    <string name="settings_section_about">关于</string>
+    <string name="settings_nickname">昵称</string>
+    <string name="settings_nickname_placeholder">点击设置昵称</string>
+    <string name="settings_nickname_hint">昵称将显示在 AI 分析报告中，让你的数据更具个性化</string>
+    <string name="settings_theme_mode">主题模式</string>
+    <string name="settings_theme_system">跟随系统</string>
+    <string name="settings_theme_light">白天模式</string>
+    <string name="settings_theme_dark">黑夜模式</string>
+    <string name="settings_ai_enable">启用 AI 智能分析</string>
+    <string name="settings_ai_enable_hint">关闭后将使用本地规则分析</string>
+    <string name="settings_ai_provider">大模型提供商</string>
+    <string name="settings_api_key">API Key</string>
+    <string name="settings_api_key_placeholder">输入 API Key</string>
+    <string name="settings_api_base_url">API Base URL</string>
+    <string name="settings_api_base_url_placeholder">https://...</string>
+    <string name="settings_model_name">模型名称</string>
+    <string name="settings_model_name_placeholder">如 qwen-turbo</string>
+    <string name="settings_ai_hint">💡 支持 OpenAI 兼容接口的任何提供商。各提供商均在控制台获取 API Key，BaseUrl/模型名切换提供商会自动填充默认值，可手动修改。</string>
+    <string name="settings_default_model">默认模型：%1$s</string>
+    <string name="settings_show">显示</string>
+    <string name="settings_hide">隐藏</string>
+    <string name="settings_about_app_name">应用名称</string>
+    <string name="settings_about_app_value">声探体验版 SoundScope</string>
+    <string name="settings_about_version">版本</string>
+    <string name="settings_about_version_value">v1.4.0</string>
+    <string name="settings_about_slogan">Slogan</string>
+    <string name="settings_about_developer">开发者</string>
+    <string name="settings_about_developer_value">0xzzyyxx</string>
+    <string name="settings_about_stack">技术栈</string>
+    <string name="settings_about_stack_value">Kotlin + Compose + Room</string>
+    <string name="settings_about_license">开源协议</string>
+    <string name="settings_about_license_value">AGPL v3</string>
+    <string name="settings_about_min_sdk">最低系统</string>
+    <string name="settings_about_min_sdk_value">Android 8.0 (API 26)</string>
+    <string name="settings_exit">退出应用</string>
+
+    <!-- ========== 语言设置 ========== -->
+    <string name="lang_system">跟随系统</string>
+    <string name="lang_chinese">简体中文</string>
+    <string name="lang_english">English</string>
+    <string name="lang_traditional_chinese">繁體中文</string>
+    <string name="lang_french">Français</string>
+    <string name="lang_portuguese">Português</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_hindi">हिन्दी</string>
+
+    <!-- ========== 权限 ========== -->
+    <string name="permission_title">需要麦克风权限</string>
+    <string name="permission_message">声探需要麦克风权限来检测环境噪音分贝，请授予权限以继续使用。</string>
+    <string name="permission_denied">权限被拒绝，无法测量分贝</string>
+    <string name="permission_grant">授予权限</string>
+
+    <!-- ========== 通用对话框 ========== -->
+    <string name="dialog_exit_title">退出应用</string>
+    <string name="dialog_exit_message">确定要退出声探吗？</string>
+    <string name="dialog_exit">退出</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_confirm">确认</string>
+
+    <!-- ========== 状态 ========== -->
+    <string name="state_measuring">测量中</string>
+    <string name="state_ready">就绪</string>
+
+    <!-- ========== 分贝等级（DecibelLevel 枚举） ========== -->
+    <string name="db_level_silence_label">极静</string>
+    <string name="db_level_silence_desc">消音室</string>
+    <string name="db_level_quiet_label">安静</string>
+    <string name="db_level_quiet_desc">轻声耳语、深夜卧室</string>
+    <string name="db_level_fairly_quiet_label">较静</string>
+    <string name="db_level_fairly_quiet_desc">图书馆、安静办公室</string>
+    <string name="db_level_moderate_label">适中</string>
+    <string name="db_level_moderate_desc">普通办公室、冰箱嗡嗡声</string>
+    <string name="db_level_average_label">一般</string>
+    <string name="db_level_average_desc">正常交谈、轻度交通噪音</string>
+    <string name="db_level_loud_label">较吵</string>
+    <string name="db_level_loud_desc">繁忙办公室、吸尘器</string>
+    <string name="db_level_very_loud_label">吵</string>
+    <string name="db_level_very_loud_desc">繁忙街道、洗衣机</string>
+    <string name="db_level_noisy_label">很吵</string>
+    <string name="db_level_noisy_desc">地铁、摩托车</string>
+    <string name="db_level_extremely_loud_label">极吵</string>
+    <string name="db_level_extremely_loud_desc">电锯、摇滚演唱会</string>
+    <string name="db_level_dangerous_label">危险</string>
+    <string name="db_level_dangerous_desc">飞机起飞、枪声</string>
+
+    <!-- ========== 场景模式（SceneMode 枚举） ========== -->
+    <string name="scene_general_label">日常</string>
+    <string name="scene_general_standard">WHO 环境噪音指南</string>
+    <string name="scene_general_scenario">居家、出行等日常环境</string>
+    <string name="scene_general_tip">日常环境建议保持在 60 dB 以下，超过会影响生活质量</string>
+
+    <string name="scene_sleep_label">睡眠</string>
+    <string name="scene_sleep_standard">WHO 卧室夜间标准</string>
+    <string name="scene_sleep_scenario">卧室、宿舍等睡眠环境</string>
+    <string name="scene_sleep_tip">WHO 建议卧室夜间 ≤ 30 dB，超过将影响睡眠质量</string>
+
+    <string name="scene_study_label">学习</string>
+    <string name="scene_study_standard">WHO 教室标准</string>
+    <string name="scene_study_scenario">书房、教室、图书馆等学习环境</string>
+    <string name="scene_study_tip">学习环境建议 ≤ 35 dB，噪音会分散注意力</string>
+
+    <string name="scene_office_label">办公</string>
+    <string name="scene_office_standard">GB 3096 声环境质量标准</string>
+    <string name="scene_office_scenario">办公室、会议室等工作环境</string>
+    <string name="scene_office_tip">办公环境建议 ≤ 50 dB，超过会降低工作效率</string>
+
+    <string name="scene_construction_label">工地</string>
+    <string name="scene_construction_standard">OSHA 职业噪音暴露标准</string>
+    <string name="scene_construction_scenario">建筑工地、工厂车间等高噪音环境</string>
+    <string name="scene_construction_tip">8 小时职业暴露上限 85 dB，超过必须佩戴防护耳塞</string>
+
+    <!-- ========== AI 提供商（AiProvider 枚举） ========== -->
+    <string name="provider_qwen">通义千问 (DashScope)</string>
+    <string name="provider_ernie">文心一言 (千帆)</string>
+    <string name="provider_zhipu">智谱 GLM</string>
+    <string name="provider_deepseek">DeepSeek</string>
+    <string name="provider_openai">OpenAI</string>
+
+    <!-- ========== AI 本地规则分析 ========== -->
+    <string name="local_env_level">当前环境：%1$s（%2$s），平均 %3$s dB</string>
+    <string name="local_health_danger">⚠️ 已超过 OSHA 8 小时职业暴露上限（85 dB），长期暴露可能损害听力，建议立即佩戴防护耳塞</string>
+    <string name="local_health_warning">长期处于此音量可能引起烦躁、注意力下降，建议远离声源或采取降噪措施</string>
+    <string name="local_health_over_limit">WHO 建议%1$s不超过 %2$d dB，当前超标 %3$s dB</string>
+    <string name="local_health_ok">✅ 当前音量符合 %1$s 推荐标准（≤ %2$d dB），环境健康</string>
+    <string name="local_trend_stable">噪音水平稳定，波动较小。</string>
+    <string name="local_trend_moderate">噪音水平有一定波动，环境声音较多样。</string>
+    <string name="local_trend_unstable">噪音水平波动较大，可能存在间歇性噪音源。</string>
+    <string name="local_trend_template">本次测量时长 %1$d 秒，分贝波动范围 %2$s - %3$s dB。</string>
+    <string name="local_action_danger">建议：1) 佩戴降噪耳塞；2) 远离噪音源；3) 长期暴露需做听力检查；4) 必要时向环保部门投诉</string>
+    <string name="local_action_over_limit">建议：1) 关闭门窗阻隔外界噪音；2) 使用耳塞或白噪音设备；3) 联系物业或噪音来源方协商；4) 保存本记录作为取证</string>
+    <string name="local_action_ok">建议：当前环境舒适，可正常进行%1$s相关活动，无需额外措施</string>
+    <string name="local_fun_anechoic">消音室级别，比耳语还安静</string>
+    <string name="local_fun_whisper">相当于轻声耳语或安静卧室</string>
+    <string name="local_fun_library">和图书馆一样安静</string>
+    <string name="local_fun_fridge">相当于冰箱运转的嗡嗡声</string>
+    <string name="local_fun_conversation">相当于正常交谈或轻度交通</string>
+    <string name="local_fun_office">相当于繁忙办公室或吸尘器</string>
+    <string name="local_fun_street">相当于繁忙街道或洗衣机</string>
+    <string name="local_fun_subway">相当于地铁或摩托车经过</string>
+    <string name="local_fun_saw">相当于电锯或摇滚演唱会</string>
+    <string name="local_fun_plane">超过飞机起飞！极其危险</string>
+    <string name="local_fun_ducks">，约等于 %1$d 只鸭子同时叫 🦆</string>
+    <string name="local_cloud_fail">（云端分析失败，已降级本地规则）</string>
+    <string name="local_cloud_ask_fail">（云端请求失败）</string>
+    <string name="local_parse_fail">（模型返回非 JSON 格式）</string>
+    <string name="local_data_summary">场景：%1$s，平均 %2$s dB，最大 %3$s dB，最小 %4$s dB，时长 %5$d 秒</string>
+
+    <!-- 本地问答 -->
+    <string name="local_q_hearing_danger">当前平均 %1$.1f dB 已超过 85 dB 安全线，长期暴露会损伤听力，建议佩戴耳塞。</string>
+    <string name="local_q_hearing_safe">当前 %1$.1f dB 在安全范围内，一般不会损伤听力。</string>
+    <string name="local_q_reduce">可尝试：关窗、使用耳塞、白噪音掩蔽、与噪音源协商、向物业/环保部门投诉。</string>
+    <string name="local_q_sleep_over">WHO 建议卧室夜间 ≤ 30 dB。当前 %1$.1f dB，可能影响睡眠质量，建议降噪。</string>
+    <string name="local_q_sleep_ok">WHO 建议卧室夜间 ≤ 30 dB。当前 %1$.1f dB，适合睡眠。</string>
+    <string name="local_q_default">本地规则模式仅能回答基础问题，配置大模型 API 后可获得更智能的回答。您当前测量平均 %1$.1f dB。</string>
+
+    <!-- ========== AI 服务异常 ========== -->
+    <string name="error_http">请求失败：HTTP %1$d %2$s</string>
+    <string name="error_no_choices">响应格式异常：缺少 choices</string>
+    <string name="error_no_content">响应格式异常：缺少 message.content</string>
+    <string name="error_analyze_fail">分析失败</string>
+    <string name="error_request_fail">请求失败</string>
+
+    <!-- ========== AI 提示词（系统 + 用户） ========== -->
+    <string name="prompt_system_zh">你是一个专业的声学环境分析师。请基于用户的噪音测量数据给出智能分析。\n严格输出 JSON 格式，字段如下：\n{\n  \"environmentLevel\": \"环境评估描述，例如：相当于繁忙咖啡厅\",\n  \"healthAdvice\": \"健康建议，引用 WHO 或国标阈值\",\n  \"trendAnalysis\": \"本次测量的波动分析（无历史数据时基于本次）\",\n  \"actionAdvice\": \"具体的行动建议\",\n  \"funFact\": \"趣味解读，可用比喻\"\n}\n只输出 JSON，不要 markdown 代码块，不要额外解释。</string>
+    <string name="prompt_user_zh">测量数据：\n- 场景：%1$s（推荐最大 %2$d dB）\n- 平均分贝：%3$s dB\n- 最大分贝：%4$s dB\n- 最小分贝：%5$s dB\n- 测量时长：%6$d 秒\n- 时间序列采样：%7$s\n\n请分析。</string>
+    <string name="prompt_data_summary_zh">以下是已分析的测量数据：\n%1$s</string>
+
+    <string name="prompt_system_en">You are a professional acoustic environment analyst. Analyze the user\'s noise measurement data.\nOutput strictly in JSON format with these fields:\n{\n  \"environmentLevel\": \"environment assessment, e.g., equivalent to a busy cafe\",\n  \"healthAdvice\": \"health advice citing WHO or national standards\",\n  \"trendAnalysis\": \"fluctuation analysis of this measurement\",\n  \"actionAdvice\": \"specific actionable recommendations\",\n  \"funFact\": \"fun interpretation, can use metaphors\"\n}\nOutput JSON only, no markdown code blocks, no extra explanation.</string>
+    <string name="prompt_user_en">Measurement data:\n- Scene: %1$s (recommended max %2$d dB)\n- Average: %3$s dB\n- Maximum: %4$s dB\n- Minimum: %5$s dB\n- Duration: %6$d seconds\n- Time series samples: %7$s\n\nPlease analyze.</string>
+    <string name="prompt_data_summary_en">The following is the analyzed measurement data:\n%1$s</string>
+</resources>

@@ -1,0 +1,255 @@
+<resources>
+    <!-- ========== App Level ========== -->
+    <string name="app_name">SoundScope</string>
+    <string name="app_name_en">SoundScope</string>
+    <string name="app_slogan">Больше, чем шумомер — он понимает вашу звуковую среду!</string>
+    <string name="app_slogan_short">Понимает вашу звуковую среду</string>
+    <string name="app_thanks">Спасибо за использование SoundScope 💚</string>
+
+    <!-- ========== Bottom Navigation ========== -->
+    <string name="tab_meter">Шумомер</string>
+    <string name="tab_history">История</string>
+    <string name="tab_ai">ИИ-анализ</string>
+    <string name="tab_settings">Настройки</string>
+
+    <!-- ========== Meter Screen ========== -->
+    <string name="meter_title">SoundScope</string>
+    <string name="meter_start_hint">Нажмите кнопку ниже, чтобы начать</string>
+    <string name="meter_start">Начать измерение</string>
+    <string name="meter_stop">Стоп</string>
+    <string name="meter_pause">Пауза</string>
+    <string name="meter_resume">Продолжить</string>
+    <string name="meter_paused_hint">⏸ Измерение приостановлено. Нажмите для продолжения.</string>
+    <string name="meter_exit_desc">Выйти из приложения</string>
+    <string name="meter_threshold_label">Предел %1$d</string>
+    <string name="meter_compliant">✅ Соответствует стандарту %1$s (≤ %2$d дБ)</string>
+    <string name="meter_over_limit">Превышает предел %1$d дБ на %2$s дБ</string>
+    <string name="meter_suggest_denoise">Снизить шум</string>
+    <string name="meter_scene_mode">Режим %1$s</string>
+    <string name="meter_standard_label">Стандарт: %1$s</string>
+
+    <!-- ========== Stats ========== -->
+    <string name="stat_max">Максимум</string>
+    <string name="stat_min">Минимум</string>
+    <string name="stat_avg">Среднее</string>
+    <string name="stat_duration">Длительность</string>
+    <string name="stat_avg_short">Ср</string>
+    <string name="stat_max_short">Макс</string>
+    <string name="stat_min_short">Мин</string>
+    <string name="stat_duration_short">Время</string>
+
+    <!-- ========== History Screen ========== -->
+    <string name="history_count">%1$d записей</string>
+    <string name="history_empty">🔇</string>
+    <string name="history_empty_title">Нет записей</string>
+    <string name="history_empty_hint">Нажмите \"Начать измерение\" для первой записи</string>
+    <string name="history_delete">Удалить запись</string>
+    <string name="history_delete_all">Удалить всё</string>
+    <string name="history_delete_confirm">Удалить эту запись?</string>
+    <string name="history_delete_all_confirm">Удалить все записи? Это действие необратимо.</string>
+    <string name="history_delete_all_action">Подтвердить</string>
+    <string name="history_delete_all_desc">Удалить всё</string>
+
+    <!-- ========== AI Analysis Screen ========== -->
+    <string name="ai_analyzing">ИИ анализирует...</string>
+    <string name="ai_analyze_btn">ИИ-анализ</string>
+    <string name="ai_no_record">🔇 Нет записей</string>
+    <string name="ai_no_record_hint">Сначала измерьте во вкладке Шумомер</string>
+    <string name="ai_current_data">📊 Текущие данные</string>
+    <string name="ai_switch_record">Сменить ›</string>
+    <string name="ai_local_mode">Локальный режим</string>
+    <string name="ai_local_mode_hint">API ИИ не настроен. Базовый анализ. Настроить →</string>
+    <string name="ai_report_title">Отчёт ИИ-анализа</string>
+    <string name="ai_section_env">🌍 Среда</string>
+    <string name="ai_section_health">💊 Здоровье</string>
+    <string name="ai_section_trend">📈 Тренд</string>
+    <string name="ai_section_action">🎯 Рекомендации</string>
+    <string name="ai_section_fun">🦆 Интересное</string>
+    <string name="ai_error_title">❌ Ошибка анализа</string>
+    <string name="ai_empty_hint">🤖</string>
+    <string name="ai_empty_hint_text">Нажмите кнопку выше для запуска анализа</string>
+    <string name="ai_thinking">⏳ Думаю...</string>
+    <string name="ai_chat_placeholder_on">Спросить: Влияет ли этот шум на сон?</string>
+    <string name="ai_chat_placeholder_off">Сначала завершите анализ</string>
+    <string name="ai_send">Отправить</string>
+    <string name="ai_summary_time">Время</string>
+    <string name="ai_summary_scene">Сцена</string>
+    <string name="ai_summary_duration">Длительность</string>
+
+    <!-- ========== Settings Screen ========== -->
+    <string name="settings_section_user">Пользователь</string>
+    <string name="settings_section_appearance">Внешний вид</string>
+    <string name="settings_section_ai">Настройки ИИ</string>
+    <string name="settings_section_language">Язык</string>
+    <string name="settings_section_about">О приложении</string>
+    <string name="settings_nickname">Псевдоним</string>
+    <string name="settings_nickname_placeholder">Установить псевдоним</string>
+    <string name="settings_nickname_hint">Ваш псевдоним появится в отчётах ИИ</string>
+    <string name="settings_theme_mode">Тема</string>
+    <string name="settings_theme_system">Системная</string>
+    <string name="settings_theme_light">Светлая</string>
+    <string name="settings_theme_dark">Тёмная</string>
+    <string name="settings_ai_enable">Включить ИИ-анализ</string>
+    <string name="settings_ai_enable_hint">Если выключено, используется локальный анализ</string>
+    <string name="settings_ai_provider">Провайдер ИИ</string>
+    <string name="settings_api_key">API Key</string>
+    <string name="settings_api_key_placeholder">Введите API Key</string>
+    <string name="settings_api_base_url">API Base URL</string>
+    <string name="settings_api_base_url_placeholder">https://...</string>
+    <string name="settings_model_name">Название модели</string>
+    <string name="settings_model_name_placeholder">напр. qwen-turbo</string>
+    <string name="settings_ai_hint">💡 Совместим с любым провайдером OpenAI. Получите ключи в консоли каждого провайдера. Автозаполнение BaseUrl/Модели.</string>
+    <string name="settings_default_model">Модель по умолчанию: %1$s</string>
+    <string name="settings_show">Показать</string>
+    <string name="settings_hide">Скрыть</string>
+    <string name="settings_about_app_name">Название приложения</string>
+    <string name="settings_about_app_value">SoundScope</string>
+    <string name="settings_about_version">Версия</string>
+    <string name="settings_about_version_value">v1.4.0</string>
+    <string name="settings_about_slogan">Слоган</string>
+    <string name="settings_about_developer">Разработчик</string>
+    <string name="settings_about_developer_value">0xzzyyxx</string>
+    <string name="settings_about_stack">Технологии</string>
+    <string name="settings_about_stack_value">Kotlin + Compose + Room</string>
+    <string name="settings_about_license">Лицензия</string>
+    <string name="settings_about_license_value">AGPL v3</string>
+    <string name="settings_about_min_sdk">Минимальная ОС</string>
+    <string name="settings_about_min_sdk_value">Android 8.0 (API 26)</string>
+    <string name="settings_exit">Выйти из приложения</string>
+
+    <!-- ========== Language Settings ========== -->
+    <string name="lang_system">Системный</string>
+    <string name="lang_chinese">简体中文</string>
+    <string name="lang_english">English</string>
+    <string name="lang_traditional_chinese">繁體中文</string>
+    <string name="lang_french">Français</string>
+    <string name="lang_portuguese">Português</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_hindi">हिन्दी</string>
+
+    <!-- ========== Permissions ========== -->
+    <string name="permission_title">Требуется разрешение на микрофон</string>
+    <string name="permission_message">SoundScope нужен микрофон для измерения шума. Предоставьте разрешение для продолжения.</string>
+    <string name="permission_denied">Разрешение отклонено. Измерение невозможно.</string>
+    <string name="permission_grant">Предоставить разрешение</string>
+
+    <!-- ========== Common Dialogs ========== -->
+    <string name="dialog_exit_title">Выйти из приложения</string>
+    <string name="dialog_exit_message">Вы уверены, что хотите выйти из SoundScope?</string>
+    <string name="dialog_exit">Выйти</string>
+    <string name="dialog_cancel">Отмена</string>
+    <string name="dialog_confirm">Подтвердить</string>
+
+    <!-- ========== States ========== -->
+    <string name="state_measuring">Измерение</string>
+    <string name="state_ready">Готов</string>
+
+    <!-- ========== Decibel Levels ========== -->
+    <string name="db_level_silence_label">Тишина</string>
+    <string name="db_level_silence_desc">Безэховая камера</string>
+    <string name="db_level_quiet_label">Тихо</string>
+    <string name="db_level_quiet_desc">Шёпот, спальня ночью</string>
+    <string name="db_level_fairly_quiet_label">Довольно тихо</string>
+    <string name="db_level_fairly_quiet_desc">Библиотека, тихий офис</string>
+    <string name="db_level_moderate_label">Умеренно</string>
+    <string name="db_level_moderate_desc">Обычный офис, гудение холодильника</string>
+    <string name="db_level_average_label">Средне</string>
+    <string name="db_level_average_desc">Обычный разговор, лёгкий трафик</string>
+    <string name="db_level_loud_label">Громко</string>
+    <string name="db_level_loud_desc">Оживлённый офис, пылесос</string>
+    <string name="db_level_very_loud_label">Очень громко</string>
+    <string name="db_level_very_loud_desc">Оживлённая улица, стиральная машина</string>
+    <string name="db_level_noisy_label">Шумно</string>
+    <string name="db_level_noisy_desc">Метро, мотоцикл</string>
+    <string name="db_level_extremely_loud_label">Очень шумно</string>
+    <string name="db_level_extremely_loud_desc">Электропила, рок-концерт</string>
+    <string name="db_level_dangerous_label">Опасно</string>
+    <string name="db_level_dangerous_desc">Взлёт самолёта, выстрел</string>
+
+    <!-- ========== Scene Modes ========== -->
+    <string name="scene_general_label">Общий</string>
+    <string name="scene_general_standard">Руководство ВОЗ по шуму</string>
+    <string name="scene_general_scenario">Дом, поездки и повседневная среда</string>
+    <string name="scene_general_tip">Повседневная среда должна быть ниже 60 дБ; превышение влияет на качество жизни</string>
+
+    <string name="scene_sleep_label">Сон</string>
+    <string name="scene_sleep_standard">Стандарт ВОЗ для спальни ночью</string>
+    <string name="scene_sleep_scenario">Спальня, общежитие и среды для сна</string>
+    <string name="scene_sleep_tip">ВОЗ рекомендует спальню ≤ 30 дБ ночью; превышение влияет на сон</string>
+
+    <string name="scene_study_label">Учёба</string>
+    <string name="scene_study_standard">Стандарт ВОЗ для классов</string>
+    <string name="scene_study_scenario">Кабинет, класс, библиотека</string>
+    <string name="scene_study_tip">Среда для учёбы ≤ 35 дБ; шум отвлекает</string>
+
+    <string name="scene_office_label">Офис</string>
+    <string name="scene_office_standard">Стандарт качества среды GB 3096</string>
+    <string name="scene_office_scenario">Офис, переговорная и рабочая среда</string>
+    <string name="scene_office_tip">Офис ≤ 50 дБ; превышение снижает эффективность</string>
+
+    <string name="scene_construction_label">Стройка</string>
+    <string name="scene_construction_standard">Стандарт OSHA профвоздействия</string>
+    <string name="scene_construction_scenario">Стройки, заводы и шумные среды</string>
+    <string name="scene_construction_tip">Предел 8ч: 85 дБ; беруши обязательны выше</string>
+
+    <!-- ========== AI Providers ========== -->
+    <string name="provider_qwen">Qwen (DashScope)</string>
+    <string name="provider_ernie">ERNIE (Qianfan)</string>
+    <string name="provider_zhipu">Zhipu GLM</string>
+    <string name="provider_deepseek">DeepSeek</string>
+    <string name="provider_openai">OpenAI</string>
+
+    <!-- ========== AI Local Rule Analysis ========== -->
+    <string name="local_env_level">Текущая среда: %1$s (%2$s), среднее %3$s дБ</string>
+    <string name="local_health_danger">⚠️ Превышает предел OSHA 8ч (85 дБ). Длительное воздействие может повредить слух. Используйте беруши немедленно.</string>
+    <string name="local_health_warning">Длительное воздействие может вызвать раздражительность и снижение концентрации. Отойдите или снизьте шум.</string>
+    <string name="local_health_over_limit">ВОЗ рекомендует %1$s ≤ %2$d дБ. Превышение %3$s дБ.</string>
+    <string name="local_health_ok">✅ Текущий уровень соответствует стандарту %1$s (≤ %2$d дБ). Здоровая среда.</string>
+    <string name="local_trend_stable">Уровень шума стабилен, минимальные колебания.</string>
+    <string name="local_trend_moderate">Уровень шума умеренно колеблется, звуки разнообразны.</string>
+    <string name="local_trend_unstable">Уровень шума сильно колеблется, возможны прерывистые источники.</string>
+    <string name="local_trend_template">Измерение %1$d секунд, диапазон %2$s - %3$s дБ.</string>
+    <string name="local_action_danger">Рекомендации: 1) Беруши; 2) Отойти от источника; 3) Проверка слуха; 4) Сообщить властям</string>
+    <string name="local_action_over_limit">Рекомендации: 1) Закрыть двери/окна; 2) Беруши или белый шум; 3) Связаться с управлением; 4) Сохранить как доказательство</string>
+    <string name="local_action_ok">Рекомендации: Среда комфортна. Обычные занятия %1$s. Доп. меры не нужны.</string>
+    <string name="local_fun_anechoic">Уровень безэховой камеры, тише шёпота</string>
+    <string name="local_fun_whisper">Как тихий шёпот или тихая спальня</string>
+    <string name="local_fun_library">Тихо как в библиотеке</string>
+    <string name="local_fun_fridge">Как гудение холодильника</string>
+    <string name="local_fun_conversation">Как обычный разговор или лёгкий трафик</string>
+    <string name="local_fun_office">Как оживлённый офис или пылесос</string>
+    <string name="local_fun_street">Как оживлённая улица или стиральная машина</string>
+    <string name="local_fun_subway">Как метро или проезжающий мотоцикл</string>
+    <string name="local_fun_saw">Как электропила или рок-концерт</string>
+    <string name="local_fun_plane">Громче взлёта самолёта! Крайне опасно</string>
+    <string name="local_fun_ducks">, эквивалентно %1$d уткам, крякающим одновременно 🦆</string>
+    <string name="local_cloud_fail">(Облачный анализ не удался, локальный режим) </string>
+    <string name="local_cloud_ask_fail">(Облачный запрос не удался) </string>
+    <string name="local_parse_fail">(Модель не вернула JSON)</string>
+    <string name="local_data_summary">Сцена: %1$s, Среднее: %2$s дБ, Макс: %3$s дБ, Мин: %4$s дБ, Длительность: %5$d секунд</string>
+
+    <!-- Local Q&A -->
+    <string name="local_q_hearing_danger">Текущее среднее %1$.1f дБ превышает безопасный предел 85 дБ. Длительное воздействие вредит слуху. Рекомендуются беруши.</string>
+    <string name="local_q_hearing_safe">%1$.1f дБ в безопасном диапазоне, обычно не вредит слуху.</string>
+    <string name="local_q_reduce">Попробуйте: закрыть окна, беруши, белый шум, договориться с источником, сообщить властям.</string>
+    <string name="local_q_sleep_over">ВОЗ рекомендует спальню ≤ 30 дБ ночью. %1$.1f дБ может влиять на сон. Снижение шума рекомендуется.</string>
+    <string name="local_q_sleep_ok">ВОЗ рекомендует спальню ≤ 30 дБ ночью. %1$.1f дБ подходит для сна.</string>
+    <string name="local_q_default">Локальный режим отвечает только на базовые вопросы. Настройте API ИИ для более умных ответов. Текущее среднее: %1$.1f дБ.</string>
+
+    <!-- ========== AI Service Errors ========== -->
+    <string name="error_http">Ошибка: HTTP %1$d %2$s</string>
+    <string name="error_no_choices">Неверный формат ответа: нет choices</string>
+    <string name="error_no_content">Неверный формат ответа: нет message.content</string>
+    <string name="error_analyze_fail">Ошибка анализа</string>
+    <string name="error_request_fail">Ошибка запроса</string>
+
+    <!-- ========== AI Prompts ========== -->
+    <string name="prompt_system_zh">你是一个专业的声学环境分析师。请基于用户的噪音测量数据给出智能分析。\n严格输出 JSON 格式，字段如下：\n{\n  \"environmentLevel\": \"环境评估描述，例如：相当于繁忙咖啡厅\",\n  \"healthAdvice\": \"健康建议，引用 WHO 或国标阈值\",\n  \"trendAnalysis\": \"本次测量的波动分析（无历史数据时基于本次）\",\n  \"actionAdvice\": \"具体的行动建议\",\n  \"funFact\": \"趣味解读，可用比喻\"\n}\n只输出 JSON，不要 markdown 代码块，不要额外解释。</string>
+    <string name="prompt_user_zh">测量数据：\n- 场景：%1$s（推荐最大 %2$d dB）\n- 平均分贝：%3$s dB\n- 最大分贝：%4$s dB\n- 最小分贝：%5$s dB\n- 测量时长：%6$d 秒\n- 时间序列采样：%7$s\n\n请分析。</string>
+    <string name="prompt_data_summary_zh">以下是已分析的测量数据：\n%1$s</string>
+    <string name="prompt_system_en">You are a professional acoustic environment analyst. Analyze the user\'s noise measurement data.\nOutput strictly in JSON format with these fields:\n{\n  \"environmentLevel\": \"environment assessment, e.g., equivalent to a busy cafe\",\n  \"healthAdvice\": \"health advice citing WHO or national standards\",\n  \"trendAnalysis\": \"fluctuation analysis of this measurement\",\n  \"actionAdvice\": \"specific actionable recommendations\",\n  \"funFact\": \"fun interpretation, can use metaphors\"\n}\nOutput JSON only, no markdown code blocks, no extra explanation.</string>
+    <string name="prompt_user_en">Measurement data:\n- Scene: %1$s (recommended max %2$d dB)\n- Average: %3$s dB\n- Maximum: %4$s dB\n- Minimum: %5$s dB\n- Duration: %6$d seconds\n- Time series samples: %7$s\n\nPlease analyze.</string>
+    <string name="prompt_data_summary_en">The following is the analyzed measurement data:\n%1$s</string>
+</resources>

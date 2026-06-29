@@ -1,0 +1,255 @@
+<resources>
+    <!-- ========== App Level ========== -->
+    <string name="app_name">SoundScope</string>
+    <string name="app_name_en">SoundScope</string>
+    <string name="app_slogan">Mucho más que un sonómetro — ¡entiende tu entorno sonoro!</string>
+    <string name="app_slogan_short">Entiende tu entorno sonoro</string>
+    <string name="app_thanks">Gracias por usar SoundScope 💚</string>
+
+    <!-- ========== Bottom Navigation ========== -->
+    <string name="tab_meter">Sonómetro</string>
+    <string name="tab_history">Historial</string>
+    <string name="tab_ai">Análisis IA</string>
+    <string name="tab_settings">Ajustes</string>
+
+    <!-- ========== Meter Screen ========== -->
+    <string name="meter_title">SoundScope</string>
+    <string name="meter_start_hint">Toca el botón para empezar</string>
+    <string name="meter_start">Iniciar medición</string>
+    <string name="meter_stop">Detener</string>
+    <string name="meter_pause">Pausar</string>
+    <string name="meter_resume">Continuar</string>
+    <string name="meter_paused_hint">⏸ Medición pausada. Toca para continuar.</string>
+    <string name="meter_exit_desc">Salir de la app</string>
+    <string name="meter_threshold_label">Límite %1$d</string>
+    <string name="meter_compliant">✅ Conforme al estándar %1$s (≤ %2$d dB)</string>
+    <string name="meter_over_limit">Supera el límite de %1$d dB en %2$s dB</string>
+    <string name="meter_suggest_denoise">Reducir ruido</string>
+    <string name="meter_scene_mode">Modo %1$s</string>
+    <string name="meter_standard_label">Estándar: %1$s</string>
+
+    <!-- ========== Stats ========== -->
+    <string name="stat_max">Máximo</string>
+    <string name="stat_min">Mínimo</string>
+    <string name="stat_avg">Promedio</string>
+    <string name="stat_duration">Duración</string>
+    <string name="stat_avg_short">Prom</string>
+    <string name="stat_max_short">Máx</string>
+    <string name="stat_min_short">Mín</string>
+    <string name="stat_duration_short">Tiempo</string>
+
+    <!-- ========== History Screen ========== -->
+    <string name="history_count">%1$d registros</string>
+    <string name="history_empty">🔇</string>
+    <string name="history_empty_title">Sin registros</string>
+    <string name="history_empty_hint">Toca \"Iniciar medición\" para registrar tu primera medición</string>
+    <string name="history_delete">Eliminar registro</string>
+    <string name="history_delete_all">Eliminar todo</string>
+    <string name="history_delete_confirm">¿Eliminar este registro?</string>
+    <string name="history_delete_all_confirm">¿Eliminar todos los registros? Esta acción no se puede deshacer.</string>
+    <string name="history_delete_all_action">Confirmar</string>
+    <string name="history_delete_all_desc">Eliminar todo</string>
+
+    <!-- ========== AI Analysis Screen ========== -->
+    <string name="ai_analyzing">IA analizando...</string>
+    <string name="ai_analyze_btn">Análisis IA inteligente</string>
+    <string name="ai_no_record">🔇 Sin registros</string>
+    <string name="ai_no_record_hint">Primero mide en la pestaña Sonómetro</string>
+    <string name="ai_current_data">📊 Datos actuales</string>
+    <string name="ai_switch_record">Cambiar ›</string>
+    <string name="ai_local_mode">Modo reglas local</string>
+    <string name="ai_local_mode_hint">Sin API de IA configurada. Análisis básico. Configurar →</string>
+    <string name="ai_report_title">Informe de análisis IA</string>
+    <string name="ai_section_env">🌍 Entorno</string>
+    <string name="ai_section_health">💊 Consejos de salud</string>
+    <string name="ai_section_trend">📈 Tendencia</string>
+    <string name="ai_section_action">🎯 Recomendaciones</string>
+    <string name="ai_section_fun">🦆 Dato curioso</string>
+    <string name="ai_error_title">❌ Análisis fallido</string>
+    <string name="ai_empty_hint">🤖</string>
+    <string name="ai_empty_hint_text">Toca el botón para iniciar el análisis IA</string>
+    <string name="ai_thinking">⏳ Pensando...</string>
+    <string name="ai_chat_placeholder_on">Preguntar: ¿Este ruido afecta el sueño?</string>
+    <string name="ai_chat_placeholder_off">Completa el análisis IA primero</string>
+    <string name="ai_send">Enviar</string>
+    <string name="ai_summary_time">Hora</string>
+    <string name="ai_summary_scene">Escena</string>
+    <string name="ai_summary_duration">Duración</string>
+
+    <!-- ========== Settings Screen ========== -->
+    <string name="settings_section_user">Usuario</string>
+    <string name="settings_section_appearance">Apariencia</string>
+    <string name="settings_section_ai">Ajustes IA</string>
+    <string name="settings_section_language">Idioma</string>
+    <string name="settings_section_about">Acerca de</string>
+    <string name="settings_nickname">Apodo</string>
+    <string name="settings_nickname_placeholder">Establecer apodo</string>
+    <string name="settings_nickname_hint">Tu apodo aparecerá en los informes de IA</string>
+    <string name="settings_theme_mode">Tema</string>
+    <string name="settings_theme_system">Sistema</string>
+    <string name="settings_theme_light">Claro</string>
+    <string name="settings_theme_dark">Oscuro</string>
+    <string name="settings_ai_enable">Activar análisis IA</string>
+    <string name="settings_ai_enable_hint">Si desactivado, usa análisis local</string>
+    <string name="settings_ai_provider">Proveedor IA</string>
+    <string name="settings_api_key">API Key</string>
+    <string name="settings_api_key_placeholder">Introducir API Key</string>
+    <string name="settings_api_base_url">API Base URL</string>
+    <string name="settings_api_base_url_placeholder">https://...</string>
+    <string name="settings_model_name">Nombre del modelo</string>
+    <string name="settings_model_name_placeholder">ej. qwen-turbo</string>
+    <string name="settings_ai_hint">💡 Compatible con cualquier proveedor OpenAI. Obtén claves en la consola de cada proveedor. BaseUrl/Modelo se autocompletan.</string>
+    <string name="settings_default_model">Modelo por defecto: %1$s</string>
+    <string name="settings_show">Mostrar</string>
+    <string name="settings_hide">Ocultar</string>
+    <string name="settings_about_app_name">Nombre de la app</string>
+    <string name="settings_about_app_value">SoundScope</string>
+    <string name="settings_about_version">Versión</string>
+    <string name="settings_about_version_value">v1.4.0</string>
+    <string name="settings_about_slogan">Eslogan</string>
+    <string name="settings_about_developer">Desarrollador</string>
+    <string name="settings_about_developer_value">0xzzyyxx</string>
+    <string name="settings_about_stack">Tecnologías</string>
+    <string name="settings_about_stack_value">Kotlin + Compose + Room</string>
+    <string name="settings_about_license">Licencia</string>
+    <string name="settings_about_license_value">AGPL v3</string>
+    <string name="settings_about_min_sdk">OS mínimo</string>
+    <string name="settings_about_min_sdk_value">Android 8.0 (API 26)</string>
+    <string name="settings_exit">Salir de la app</string>
+
+    <!-- ========== Language Settings ========== -->
+    <string name="lang_system">Sistema</string>
+    <string name="lang_chinese">简体中文</string>
+    <string name="lang_english">English</string>
+    <string name="lang_traditional_chinese">繁體中文</string>
+    <string name="lang_french">Français</string>
+    <string name="lang_portuguese">Português</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_hindi">हिन्दी</string>
+
+    <!-- ========== Permissions ========== -->
+    <string name="permission_title">Se requiere permiso de micrófono</string>
+    <string name="permission_message">SoundScope necesita el micrófono para medir el ruido. Concede el permiso para continuar.</string>
+    <string name="permission_denied">Permiso denegado. No se puede medir.</string>
+    <string name="permission_grant">Conceder permiso</string>
+
+    <!-- ========== Common Dialogs ========== -->
+    <string name="dialog_exit_title">Salir de la app</string>
+    <string name="dialog_exit_message">¿Seguro que quieres salir de SoundScope?</string>
+    <string name="dialog_exit">Salir</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_confirm">Confirmar</string>
+
+    <!-- ========== States ========== -->
+    <string name="state_measuring">Midiendo</string>
+    <string name="state_ready">Listo</string>
+
+    <!-- ========== Decibel Levels ========== -->
+    <string name="db_level_silence_label">Silencio</string>
+    <string name="db_level_silence_desc">Cámara anecoica</string>
+    <string name="db_level_quiet_label">Tranquilo</string>
+    <string name="db_level_quiet_desc">Susurro, dormitorio nocturno</string>
+    <string name="db_level_fairly_quiet_label">Bastante tranquilo</string>
+    <string name="db_level_fairly_quiet_desc">Biblioteca, oficina silenciosa</string>
+    <string name="db_level_moderate_label">Moderado</string>
+    <string name="db_level_moderate_desc">Oficina normal, zumbido de nevera</string>
+    <string name="db_level_average_label">Promedio</string>
+    <string name="db_level_average_desc">Conversación normal, tráfico ligero</string>
+    <string name="db_level_loud_label">Alto</string>
+    <string name="db_level_loud_desc">Oficina concurrida, aspiradora</string>
+    <string name="db_level_very_loud_label">Muy alto</string>
+    <string name="db_level_very_loud_desc">Calle concurrida, lavadora</string>
+    <string name="db_level_noisy_label">Ruidoso</string>
+    <string name="db_level_noisy_desc">Metro, motocicleta</string>
+    <string name="db_level_extremely_loud_label">Extremadamente alto</string>
+    <string name="db_level_extremely_loud_desc">Sierra eléctrica, concierto de rock</string>
+    <string name="db_level_dangerous_label">Peligroso</string>
+    <string name="db_level_dangerous_desc">Despegue de avión, disparo</string>
+
+    <!-- ========== Scene Modes ========== -->
+    <string name="scene_general_label">General</string>
+    <string name="scene_general_standard">Guía OMS ruido ambiental</string>
+    <string name="scene_general_scenario">Hogar, desplazamientos y entornos diarios</string>
+    <string name="scene_general_tip">Entornos diarios deben estar bajo 60 dB; más arriba afecta la calidad de vida</string>
+
+    <string name="scene_sleep_label">Sueño</string>
+    <string name="scene_sleep_standard">Estándar OMS dormitorio nocturno</string>
+    <string name="scene_sleep_scenario">Dormitorio, residencia y entornos de sueño</string>
+    <string name="scene_sleep_tip">OMS recomienda dormitorio nocturno ≤ 30 dB; más arriba afecta el sueño</string>
+
+    <string name="scene_study_label">Estudio</string>
+    <string name="scene_study_standard">Estándar OMS aula</string>
+    <string name="scene_study_scenario">Estudio, aula, biblioteca</string>
+    <string name="scene_study_tip">Entorno de estudio ≤ 35 dB; el ruido distrae</string>
+
+    <string name="scene_office_label">Oficina</string>
+    <string name="scene_office_standard">Estándar de calidad ambiental GB 3096</string>
+    <string name="scene_office_scenario">Oficina, sala de reuniones y entornos de trabajo</string>
+    <string name="scene_office_tip">Entorno de oficina ≤ 50 dB; más arriba reduce la eficiencia</string>
+
+    <string name="scene_construction_label">Construcción</string>
+    <string name="scene_construction_standard">Estándar OSHA exposición laboral</string>
+    <string name="scene_construction_scenario">Obras, fábricas y entornos muy ruidosos</string>
+    <string name="scene_construction_tip">Límite de exposición 8h: 85 dB; tapones obligatorios por encima</string>
+
+    <!-- ========== AI Providers ========== -->
+    <string name="provider_qwen">Qwen (DashScope)</string>
+    <string name="provider_ernie">ERNIE (Qianfan)</string>
+    <string name="provider_zhipu">Zhipu GLM</string>
+    <string name="provider_deepseek">DeepSeek</string>
+    <string name="provider_openai">OpenAI</string>
+
+    <!-- ========== AI Local Rule Analysis ========== -->
+    <string name="local_env_level">Entorno actual: %1$s (%2$s), promedio %3$s dB</string>
+    <string name="local_health_danger">⚠️ Supera el límite OSHA 8h (85 dB). La exposición prolongada puede dañar la audición. Usa tapones inmediatamente.</string>
+    <string name="local_health_warning">La exposición prolongada a este volumen puede causar irritabilidad y falta de concentración. Aléjate o reduce el ruido.</string>
+    <string name="local_health_over_limit">OMS recomienda %1$s ≤ %2$d dB. Exceso de %3$s dB.</string>
+    <string name="local_health_ok">✅ Volumen actual conforme al estándar %1$s (≤ %2$d dB). Entorno saludable.</string>
+    <string name="local_trend_stable">Nivel de ruido estable, fluctuaciones mínimas.</string>
+    <string name="local_trend_moderate">Nivel de ruido con cierta fluctuación, sonidos diversos.</string>
+    <string name="local_trend_unstable">Nivel de ruido muy fluctuante, posibles fuentes intermitentes.</string>
+    <string name="local_trend_template">Medición de %1$d segundos, rango %2$s - %3$s dB.</string>
+    <string name="local_action_danger">Recomendaciones: 1) Tapones antirruido; 2) Alejarse de la fuente; 3) Examen auditivo si exposición prolongada; 4) Denunciar a autoridades</string>
+    <string name="local_action_over_limit">Recomendaciones: 1) Cerrar puertas/ventanas; 2) Tapones o ruido blanco; 3) Contactar administración/fuente; 4) Guardar como prueba</string>
+    <string name="local_action_ok">Recomendaciones: Entorno cómodo. Actividades %1$s normales. Sin medidas extra.</string>
+    <string name="local_fun_anechoic">Nivel de cámara anecoica, más silencioso que un susurro</string>
+    <string name="local_fun_whisper">Como un susurro suave o dormitorio silencioso</string>
+    <string name="local_fun_library">Tan silencioso como una biblioteca</string>
+    <string name="local_fun_fridge">Como el zumbido de una nevera</string>
+    <string name="local_fun_conversation">Como conversación normal o tráfico ligero</string>
+    <string name="local_fun_office">Como oficina concurrida o aspiradora</string>
+    <string name="local_fun_street">Como calle concurrida o lavadora</string>
+    <string name="local_fun_subway">Como metro o motocicleta pasando</string>
+    <string name="local_fun_saw">Como sierra eléctrica o concierto de rock</string>
+    <string name="local_fun_plane">¡Más fuerte que un despegue de avión! Extremadamente peligroso</string>
+    <string name="local_fun_ducks">, equivalente a %1$d patos graznando simultáneamente 🦆</string>
+    <string name="local_cloud_fail">(Análisis en la nube falló, modo local) </string>
+    <string name="local_cloud_ask_fail">(Petición en la nube falló) </string>
+    <string name="local_parse_fail">(El modelo no devolvió JSON)</string>
+    <string name="local_data_summary">Escena: %1$s, Promedio: %2$s dB, Máx: %3$s dB, Mín: %4$s dB, Duración: %5$d segundos</string>
+
+    <!-- Local Q&A -->
+    <string name="local_q_hearing_danger">Promedio actual %1$.1f dB supera la línea de seguridad 85 dB. Exposición prolongada daña la audición. Tapones recomendados.</string>
+    <string name="local_q_hearing_safe">%1$.1f dB actual está en rango seguro, generalmente sin riesgo auditivo.</string>
+    <string name="local_q_reduce">Prueba: cerrar ventanas, tapones, ruido blanco, negociar con la fuente, denunciar a autoridades.</string>
+    <string name="local_q_sleep_over">OMS recomienda dormitorio nocturno ≤ 30 dB. %1$.1f dB actual puede afectar el sueño. Reducir ruido.</string>
+    <string name="local_q_sleep_ok">OMS recomienda dormitorio nocturno ≤ 30 dB. %1$.1f dB actual es adecuado para dormir.</string>
+    <string name="local_q_default">El modo local solo responde preguntas básicas. Configura una API IA para respuestas más inteligentes. Promedio actual: %1$.1f dB.</string>
+
+    <!-- ========== AI Service Errors ========== -->
+    <string name="error_http">Fallo: HTTP %1$d %2$s</string>
+    <string name="error_no_choices">Formato de respuesta incorrecto: falta choices</string>
+    <string name="error_no_content">Formato de respuesta incorrecto: falta message.content</string>
+    <string name="error_analyze_fail">Análisis fallido</string>
+    <string name="error_request_fail">Petición fallida</string>
+
+    <!-- ========== AI Prompts ========== -->
+    <string name="prompt_system_zh">你是一个专业的声学环境分析师。请基于用户的噪音测量数据给出智能分析。\n严格输出 JSON 格式，字段如下：\n{\n  \"environmentLevel\": \"环境评估描述，例如：相当于繁忙咖啡厅\",\n  \"healthAdvice\": \"健康建议，引用 WHO 或国标阈值\",\n  \"trendAnalysis\": \"本次测量的波动分析（无历史数据时基于本次）\",\n  \"actionAdvice\": \"具体的行动建议\",\n  \"funFact\": \"趣味解读，可用比喻\"\n}\n只输出 JSON，不要 markdown 代码块，不要额外解释。</string>
+    <string name="prompt_user_zh">测量数据：\n- 场景：%1$s（推荐最大 %2$d dB）\n- 平均分贝：%3$s dB\n- 最大分贝：%4$s dB\n- 最小分贝：%5$s dB\n- 测量时长：%6$d 秒\n- 时间序列采样：%7$s\n\n请分析。</string>
+    <string name="prompt_data_summary_zh">以下是已分析的测量数据：\n%1$s</string>
+    <string name="prompt_system_en">You are a professional acoustic environment analyst. Analyze the user\'s noise measurement data.\nOutput strictly in JSON format with these fields:\n{\n  \"environmentLevel\": \"environment assessment, e.g., equivalent to a busy cafe\",\n  \"healthAdvice\": \"health advice citing WHO or national standards\",\n  \"trendAnalysis\": \"fluctuation analysis of this measurement\",\n  \"actionAdvice\": \"specific actionable recommendations\",\n  \"funFact\": \"fun interpretation, can use metaphors\"\n}\nOutput JSON only, no markdown code blocks, no extra explanation.</string>
+    <string name="prompt_user_en">Measurement data:\n- Scene: %1$s (recommended max %2$d dB)\n- Average: %3$s dB\n- Maximum: %4$s dB\n- Minimum: %5$s dB\n- Duration: %6$d seconds\n- Time series samples: %7$s\n\nPlease analyze.</string>
+    <string name="prompt_data_summary_en">The following is the analyzed measurement data:\n%1$s</string>
+</resources>

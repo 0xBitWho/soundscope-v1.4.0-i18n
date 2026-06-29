@@ -1,0 +1,255 @@
+<resources>
+    <!-- ========== App Level ========== -->
+    <string name="app_name">SoundScope</string>
+    <string name="app_name_en">SoundScope</string>
+    <string name="app_slogan">सिर्फ डेसिबल मीटर नहीं — यह आपकी ध्वनि परिवेश को समझता है!</string>
+    <string name="app_slogan_short">आपकी ध्वनि परिवेश को समझता है</string>
+    <string name="app_thanks">SoundScope इस्तेमाल करने के लिए धन्यवाद 💚</string>
+
+    <!-- ========== Bottom Navigation ========== -->
+    <string name="tab_meter">डेसिबल मीटर</string>
+    <string name="tab_history">इतिहास</string>
+    <string name="tab_ai">एआई विश्लेषण</string>
+    <string name="tab_settings">सेटिंग्स</string>
+
+    <!-- ========== Meter Screen ========== -->
+    <string name="meter_title">SoundScope</string>
+    <string name="meter_start_hint">शुरू करने के लिए नीचे दिए गए बटन पर टैप करें</string>
+    <string name="meter_start">माप शुरू करें</string>
+    <string name="meter_stop">रोकें</string>
+    <string name="meter_pause">विराम</string>
+    <string name="meter_resume">जारी रखें</string>
+    <string name="meter_paused_hint">⏸ माप रुका हुआ है। जारी रखने के लिए टैप करें।</string>
+    <string name="meter_exit_desc">ऐप से बाहर निकलें</string>
+    <string name="meter_threshold_label">सीमा %1$d</string>
+    <string name="meter_compliant">✅ %1$s मानक के अनुरूप (≤ %2$d डेसिबल)</string>
+    <string name="meter_over_limit">%1$d डेसिबल सीमा से %2$s डेसिबल अधिक</string>
+    <string name="meter_suggest_denoise">शोर कम करें</string>
+    <string name="meter_scene_mode">%1$s मोड</string>
+    <string name="meter_standard_label">मानक: %1$s</string>
+
+    <!-- ========== Stats ========== -->
+    <string name="stat_max">अधिकतम</string>
+    <string name="stat_min">न्यूनतम</string>
+    <string name="stat_avg">औसत</string>
+    <string name="stat_duration">अवधि</string>
+    <string name="stat_avg_short">औसत</string>
+    <string name="stat_max_short">अधि</string>
+    <string name="stat_min_short">न्यू</string>
+    <string name="stat_duration_short">समय</string>
+
+    <!-- ========== History Screen ========== -->
+    <string name="history_count">%1$d रिकॉर्ड</string>
+    <string name="history_empty">🔇</string>
+    <string name="history_empty_title">कोई रिकॉर्ड नहीं</string>
+    <string name="history_empty_hint">अपनी पहली माप के लिए \"माप शुरू करें\" दबाएं</string>
+    <string name="history_delete">रिकॉर्ड हटाएं</string>
+    <string name="history_delete_all">सभी हटाएं</string>
+    <string name="history_delete_confirm">यह रिकॉर्ड हटाएं?</string>
+    <string name="history_delete_all_confirm">सभी रिकॉर्ड हटाएं? यह क्रिया पूर्ववत नहीं की जा सकती।</string>
+    <string name="history_delete_all_action">हटाने की पुष्टि करें</string>
+    <string name="history_delete_all_desc">सभी हटाएं</string>
+
+    <!-- ========== AI Analysis Screen ========== -->
+    <string name="ai_analyzing">एआई विश्लेषण कर रहा है...</string>
+    <string name="ai_analyze_btn">एआई स्मार्ट विश्लेषण</string>
+    <string name="ai_no_record">🔇 कोई रिकॉर्ड नहीं</string>
+    <string name="ai_no_record_hint">पहले डेसिबल मीटर टैब में मापें</string>
+    <string name="ai_current_data">📊 वर्तमान डेटा</string>
+    <string name="ai_switch_record">बदलें ›</string>
+    <string name="ai_local_mode">स्थानीय नियम मोड</string>
+    <string name="ai_local_mode_hint">कोई एआई एपीआई कॉन्फ़िगर नहीं। बुनियादी विश्लेषण। सेटअप →</string>
+    <string name="ai_report_title">एआई विश्लेषण रिपोर्ट</string>
+    <string name="ai_section_env">🌍 पर्यावरण</string>
+    <string name="ai_section_health">💊 स्वास्थ्य सलाह</string>
+    <string name="ai_section_trend">📈 रुझान</string>
+    <string name="ai_section_action">🎯 सुझाव</string>
+    <string name="ai_section_fun">🦆 मजेदार तथ्य</string>
+    <string name="ai_error_title">❌ विश्लेषण विफल</string>
+    <string name="ai_empty_hint">🤖</string>
+    <string name="ai_empty_hint_text">विश्लेषण शुरू करने के लिए ऊपर का बटन दबाएं</string>
+    <string name="ai_thinking">⏳ सोच रहा हूं...</string>
+    <string name="ai_chat_placeholder_on">पूछें: क्या यह शोर नींद को प्रभावित करता है?</string>
+    <string name="ai_chat_placeholder_off">पहले एआई विश्लेषण पूरा करें</string>
+    <string name="ai_send">भेजें</string>
+    <string name="ai_summary_time">समय</string>
+    <string name="ai_summary_scene">दृश्य</string>
+    <string name="ai_summary_duration">अवधि</string>
+
+    <!-- ========== Settings Screen ========== -->
+    <string name="settings_section_user">उपयोगकर्ता</string>
+    <string name="settings_section_appearance">रूप</string>
+    <string name="settings_section_ai">एआई सेटिंग्स</string>
+    <string name="settings_section_language">भाषा</string>
+    <string name="settings_section_about">के बारे में</string>
+    <string name="settings_nickname">उपनाम</string>
+    <string name="settings_nickname_placeholder">उपनाम सेट करें</string>
+    <string name="settings_nickname_hint">आपका उपनाम एआई रिपोर्ट में दिखाई देगा</string>
+    <string name="settings_theme_mode">थीम</string>
+    <string name="settings_theme_system">सिस्टम</string>
+    <string name="settings_theme_light">लाइट</string>
+    <string name="settings_theme_dark">डार्क</string>
+    <string name="settings_ai_enable">एआई विश्लेषण सक्षम करें</string>
+    <string name="settings_ai_enable_hint">अक्षम होने पर स्थानीय विश्लेषण उपयोग होता है</string>
+    <string name="settings_ai_provider">एआई प्रदाता</string>
+    <string name="settings_api_key">API Key</string>
+    <string name="settings_api_key_placeholder">API Key दर्ज करें</string>
+    <string name="settings_api_base_url">API Base URL</string>
+    <string name="settings_api_base_url_placeholder">https://...</string>
+    <string name="settings_model_name">मॉडल नाम</string>
+    <string name="settings_model_name_placeholder">जैसे qwen-turbo</string>
+    <string name="settings_ai_hint">💡 किसी भी OpenAI-संगत प्रदाता के साथ संगत। प्रत्येक प्रदाता के कंसोल से कुंजी प्राप्त करें। स्वतः भरण।</string>
+    <string name="settings_default_model">डिफ़ॉल्ट मॉडल: %1$s</string>
+    <string name="settings_show">दिखाएं</string>
+    <string name="settings_hide">छुपाएं</string>
+    <string name="settings_about_app_name">ऐप नाम</string>
+    <string name="settings_about_app_value">SoundScope</string>
+    <string name="settings_about_version">संस्करण</string>
+    <string name="settings_about_version_value">v1.4.0</string>
+    <string name="settings_about_slogan">स्लोगन</string>
+    <string name="settings_about_developer">डेवलपर</string>
+    <string name="settings_about_developer_value">0xzzyyxx</string>
+    <string name="settings_about_stack">तकनीक</string>
+    <string name="settings_about_stack_value">Kotlin + Compose + Room</string>
+    <string name="settings_about_license">लाइसेंस</string>
+    <string name="settings_about_license_value">AGPL v3</string>
+    <string name="settings_about_min_sdk">न्यूनतम ओएस</string>
+    <string name="settings_about_min_sdk_value">Android 8.0 (API 26)</string>
+    <string name="settings_exit">ऐप से बाहर निकलें</string>
+
+    <!-- ========== Language Settings ========== -->
+    <string name="lang_system">सिस्टम</string>
+    <string name="lang_chinese">简体中文</string>
+    <string name="lang_english">English</string>
+    <string name="lang_traditional_chinese">繁體中文</string>
+    <string name="lang_french">Français</string>
+    <string name="lang_portuguese">Português</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_hindi">हिन्दी</string>
+
+    <!-- ========== Permissions ========== -->
+    <string name="permission_title">माइक्रोफ़ोन अनुमति आवश्यक</string>
+    <string name="permission_message">SoundScope को शोर मापने के लिए माइक्रोफ़ोन चाहिए। कृपया अनुमति दें।</string>
+    <string name="permission_denied">अनुमति अस्वीकृत। माप नहीं हो सकता।</string>
+    <string name="permission_grant">अनुमति दें</string>
+
+    <!-- ========== Common Dialogs ========== -->
+    <string name="dialog_exit_title">ऐप से बाहर निकलें</string>
+    <string name="dialog_exit_message">क्या आप वाकई SoundScope से बाहर निकलना चाहते हैं?</string>
+    <string name="dialog_exit">बाहर निकलें</string>
+    <string name="dialog_cancel">रद्द करें</string>
+    <string name="dialog_confirm">पुष्टि करें</string>
+
+    <!-- ========== States ========== -->
+    <string name="state_measuring">माप जारी</string>
+    <string name="state_ready">तैयार</string>
+
+    <!-- ========== Decibel Levels ========== -->
+    <string name="db_level_silence_label">मौन</string>
+    <string name="db_level_silence_desc">एनेकोइक चैम्बर</string>
+    <string name="db_level_quiet_label">शांत</string>
+    <string name="db_level_quiet_desc">फुसफुसाहट, रात का शयनकक्ष</string>
+    <string name="db_level_fairly_quiet_label">काफी शांत</string>
+    <string name="db_level_fairly_quiet_desc">पुस्तकालय, शांत कार्यालय</string>
+    <string name="db_level_moderate_label">मध्यम</string>
+    <string name="db_level_moderate_desc">सामान्य कार्यालय, फ्रिज की गुंजन</string>
+    <string name="db_level_average_label">औसत</string>
+    <string name="db_level_average_desc">सामान्य बातचीत, हल्का यातायात</string>
+    <string name="db_level_loud_label">जोरदार</string>
+    <string name="db_level_loud_desc">व्यस्त कार्यालय, वैक्यूम क्लीनर</string>
+    <string name="db_level_very_loud_label">बहुत जोरदार</string>
+    <string name="db_level_very_loud_desc">व्यस्त सड़क, वॉशिंग मशीन</string>
+    <string name="db_level_noisy_label">शोरयुक्त</string>
+    <string name="db_level_noisy_desc">मेट्रो, मोटरसाइकिल</string>
+    <string name="db_level_extremely_loud_label">अत्यधिक जोरदार</string>
+    <string name="db_level_extremely_loud_desc">आरी, रॉक संगीत कार्यक्रम</string>
+    <string name="db_level_dangerous_label">खतरनाक</string>
+    <string name="db_level_dangerous_desc">विमान उड़ान, गोली</string>
+
+    <!-- ========== Scene Modes ========== -->
+    <string name="scene_general_label">सामान्य</string>
+    <string name="scene_general_standard">डब्ल्यूएचओ पर्यावरण शोर दिशानिर्देश</string>
+    <string name="scene_general_scenario">घर, यात्रा और दैनिक वातावरण</string>
+    <string name="scene_general_tip">दैनिक वातावरण 60 डेसिबल से कम रहना चाहिए; अधिक होने पर जीवन की गुणवत्ता प्रभावित होती है</string>
+
+    <string name="scene_sleep_label">नींद</string>
+    <string name="scene_sleep_standard">डब्ल्यूएचओ शयनकक्ष रात मानक</string>
+    <string name="scene_sleep_scenario">शयनकक्ष, छात्रावास और नींद का वातावरण</string>
+    <string name="scene_sleep_tip">डब्ल्यूएचओ रात में शयनकक्ष ≤ 30 डेसिबल सिफारिश करता है; अधिक होने पर नींद प्रभावित होती है</string>
+
+    <string name="scene_study_label">अध्ययन</string>
+    <string name="scene_study_standard">डब्ल्यूएचओ कक्षा मानक</string>
+    <string name="scene_study_scenario">अध्ययन कक्ष, कक्षा, पुस्तकालय</string>
+    <string name="scene_study_tip">अध्ययन वातावरण ≤ 35 डेसिबल; शोर ध्यान भटकाता है</string>
+
+    <string name="scene_office_label">कार्यालय</string>
+    <string name="scene_office_standard">GB 3096 पर्यावरण गुणवत्ता मानक</string>
+    <string name="scene_office_scenario">कार्यालय, बैठक कक्ष और कार्य वातावरण</string>
+    <string name="scene_office_tip">कार्यालय वातावरण ≤ 50 डेसिबल; अधिक होने पर दक्षता कम होती है</string>
+
+    <string name="scene_construction_label">निर्माण</string>
+    <string name="scene_construction_standard">OSHA व्यावसायिक शोर अनावरण मानक</string>
+    <string name="scene_construction_scenario">निर्माण स्थल, कारखाने और उच्च शोर वातावरण</string>
+    <string name="scene_construction_tip">8 घंटे अनावरण सीमा: 85 डेसिबल; इससे अधिक पर ईयरप्लग अनिवार्य</string>
+
+    <!-- ========== AI Providers ========== -->
+    <string name="provider_qwen">Qwen (DashScope)</string>
+    <string name="provider_ernie">ERNIE (Qianfan)</string>
+    <string name="provider_zhipu">Zhipu GLM</string>
+    <string name="provider_deepseek">DeepSeek</string>
+    <string name="provider_openai">OpenAI</string>
+
+    <!-- ========== AI Local Rule Analysis ========== -->
+    <string name="local_env_level">वर्तमान वातावरण: %1$s (%2$s), औसत %3$s डेसिबल</string>
+    <string name="local_health_danger">⚠️ OSHA 8 घंटे की सीमा (85 डेसिबल) से अधिक। लंबे अनावरण से श्रवण हानि हो सकती है। तुरंत ईयरप्लग पहनें।</string>
+    <string name="local_health_warning">इस मात्रा में लंबे समय तक रहने से चिड़चिड़ापन और एकाग्रता में कमी हो सकती है। दूर जाएं या शोर कम करें।</string>
+    <string name="local_health_over_limit">डब्ल्यूएचओ %1$s ≤ %2$d डेसिबल सिफारिश करता है। %3$s डेसिबल अधिक।</string>
+    <string name="local_health_ok">✅ वर्तमान मात्रा %1$s मानक (≤ %2$d डेसिबल) के अनुरूप। स्वस्थ वातावरण।</string>
+    <string name="local_trend_stable">शोर स्तर स्थिर, न्यूनतम उतार-चढ़ाव।</string>
+    <string name="local_trend_moderate">शोर स्तर में कुछ उतार-चढ़ाव, विविध ध्वनियां।</string>
+    <string name="local_trend_unstable">शोर स्तर बहुत उतार-चढ़ाव, संभावित रुक-रुक कर शोर।</string>
+    <string name="local_trend_template">%1$d सेकंड की माप, सीमा %2$s - %3$s डेसिबल।</string>
+    <string name="local_action_danger">सुझाव: 1) शोर-रोधी ईयरप्लग; 2) शोर स्रोत से दूर; 3) लंबे अनावरण पर श्रवण जांच; 4) अधिकारियों को सूचित करें</string>
+    <string name="local_action_over_limit">सुझाव: 1) दरवाजे/खिड़कियां बंद; 2) ईयरप्लग या व्हाइट नॉइज़; 3) प्रबंधन/स्रोत से संपर्क; 4) साक्ष्य के रूप में सहेजें</string>
+    <string name="local_action_ok">सुझाव: वातावरण आरामदायक। %1$s गतिविधियां सामान्य। अतिरिक्त उपाय आवश्यक नहीं।</string>
+    <string name="local_fun_anechoic">एनेकोइक चैम्बर स्तर, फुसफुसाहट से भी शांत</string>
+    <string name="local_fun_whisper">हल्की फुसफुसाहट या शांत शयनकक्ष के समान</string>
+    <string name="local_fun_library">पुस्तकालय जितना शांत</string>
+    <string name="local_fun_fridge">फ्रिज की गुंजन के समान</string>
+    <string name="local_fun_conversation">सामान्य बातचीत या हल्के यातायात के समान</string>
+    <string name="local_fun_office">व्यस्त कार्यालय या वैक्यूम क्लीनर के समान</string>
+    <string name="local_fun_street">व्यस्त सड़क या वॉशिंग मशीन के समान</string>
+    <string name="local_fun_subway">मेट्रो या गुजरती मोटरसाइकिल के समान</string>
+    <string name="local_fun_saw">आरी या रॉक संगीत कार्यक्रम के समान</string>
+    <string name="local_fun_plane">विमान उड़ान से भी जोरदार! अत्यंत खतरनाक</string>
+    <string name="local_fun_ducks">, %1$d बत्तखों के एक साथ बोलने के समान 🦆</string>
+    <string name="local_cloud_fail">(क्लाउड विश्लेषण विफल, स्थानीय मोड) </string>
+    <string name="local_cloud_ask_fail">(क्लाउड अनुरोध विफल) </string>
+    <string name="local_parse_fail">(मॉडल ने JSON नहीं लौटाया)</string>
+    <string name="local_data_summary">दृश्य: %1$s, औसत: %2$s डेसिबल, अधिकतम: %3$s डेसिबल, न्यूनतम: %4$s डेसिबल, अवधि: %5$d सेकंड</string>
+
+    <!-- Local Q&A -->
+    <string name="local_q_hearing_danger">वर्तमान औसत %1$.1f डेसिबल 85 डेसिबल सुरक्षा रेखा से अधिक। लंबा अनावरण श्रवण को नुकसान पहुंचाता है। ईयरप्लग सिफारिश किए गए।</string>
+    <string name="local_q_hearing_safe">%1$.1f डेसिबल सुरक्षित सीमा में है, सामान्यतः श्रवण को नुकसान नहीं।</string>
+    <string name="local_q_reduce">आजमाएं: खिड़कियां बंद, ईयरप्लग, व्हाइट नॉइज़, स्रोत से बात, अधिकारियों को सूचित।</string>
+    <string name="local_q_sleep_over">डब्ल्यूएचओ रात में शयनकक्ष ≤ 30 डेसिबल सिफारिश करता है। %1$.1f डेसिबल नींद को प्रभावित कर सकता है। शोर कम करने की सिफारिश।</string>
+    <string name="local_q_sleep_ok">डब्ल्यूएचओ रात में शयनकक्ष ≤ 30 डेसिबल सिफारिश करता है। %1$.1f डेसिबल नींद के लिए उपयुक्त।</string>
+    <string name="local_q_default">स्थानीय मोड केवल बुनियादी प्रश्नों का उत्तर देता है। अधिक स्मार्ट उत्तरों के लिए एआई एपीआई कॉन्फ़िगर करें। वर्तमान औसत: %1$.1f डेसिबल।</string>
+
+    <!-- ========== AI Service Errors ========== -->
+    <string name="error_http">विफल: HTTP %1$d %2$s</string>
+    <string name="error_no_choices">गलत प्रतिक्रिया प्रारूप: choices अनुपस्थित</string>
+    <string name="error_no_content">गलत प्रतिक्रिया प्रारूप: message.content अनुपस्थित</string>
+    <string name="error_analyze_fail">विश्लेषण विफल</string>
+    <string name="error_request_fail">अनुरोध विफल</string>
+
+    <!-- ========== AI Prompts ========== -->
+    <string name="prompt_system_zh">你是一个专业的声学环境分析师。请基于用户的噪音测量数据给出智能分析。\n严格输出 JSON 格式，字段如下：\n{\n  \"environmentLevel\": \"环境评估描述，例如：相当于繁忙咖啡厅\",\n  \"healthAdvice\": \"健康建议，引用 WHO 或国标阈值\",\n  \"trendAnalysis\": \"本次测量的波动分析（无历史数据时基于本次）\",\n  \"actionAdvice\": \"具体的行动建议\",\n  \"funFact\": \"趣味解读，可用比喻\"\n}\n只输出 JSON，不要 markdown 代码块，不要额外解释。</string>
+    <string name="prompt_user_zh">测量数据：\n- 场景：%1$s（推荐最大 %2$d dB）\n- 平均分贝：%3$s dB\n- 最大分贝：%4$s dB\n- 最小分贝：%5$s dB\n- 测量时长：%6$d 秒\n- 时间序列采样：%7$s\n\n请分析。</string>
+    <string name="prompt_data_summary_zh">以下是已分析的测量数据：\n%1$s</string>
+    <string name="prompt_system_en">You are a professional acoustic environment analyst. Analyze the user\'s noise measurement data.\nOutput strictly in JSON format with these fields:\n{\n  \"environmentLevel\": \"environment assessment, e.g., equivalent to a busy cafe\",\n  \"healthAdvice\": \"health advice citing WHO or national standards\",\n  \"trendAnalysis\": \"fluctuation analysis of this measurement\",\n  \"actionAdvice\": \"specific actionable recommendations\",\n  \"funFact\": \"fun interpretation, can use metaphors\"\n}\nOutput JSON only, no markdown code blocks, no extra explanation.</string>
+    <string name="prompt_user_en">Measurement data:\n- Scene: %1$s (recommended max %2$d dB)\n- Average: %3$s dB\n- Maximum: %4$s dB\n- Minimum: %5$s dB\n- Duration: %6$d seconds\n- Time series samples: %7$s\n\nPlease analyze.</string>
+    <string name="prompt_data_summary_en">The following is the analyzed measurement data:\n%1$s</string>
+</resources>

@@ -1,0 +1,256 @@
+<resources>
+    <!-- ========== App Level ========== -->
+    <string name="app_name">SoundScope</string>
+    <string name="app_name_en">SoundScope</string>
+    <string name="app_slogan">Not just a decibel meter — it understands your sound environment!</string>
+    <string name="app_slogan_short">Understands your sound environment</string>
+    <string name="app_thanks">Thank you for using SoundScope 💚</string>
+
+    <!-- ========== Bottom Navigation ========== -->
+    <string name="tab_meter">Meter</string>
+    <string name="tab_history">History</string>
+    <string name="tab_ai">AI Analysis</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- ========== Meter Screen ========== -->
+    <string name="meter_title">SoundScope</string>
+    <string name="meter_start_hint">Tap the button below to start measuring</string>
+    <string name="meter_start">Start Measurement</string>
+    <string name="meter_stop">Stop</string>
+    <string name="meter_pause">Pause</string>
+    <string name="meter_resume">Resume</string>
+    <string name="meter_paused_hint">⏸ Measurement paused. Tap resume to continue.</string>
+    <string name="meter_exit_desc">Exit app</string>
+    <string name="meter_threshold_label">Limit %1$d</string>
+    <string name="meter_compliant">✅ Meets %1$s standard (≤ %2$d dB)</string>
+    <string name="meter_over_limit">Exceeds %1$d dB limit by %2$s dB</string>
+    <string name="meter_suggest_denoise">Reduce noise</string>
+    <string name="meter_scene_mode">%1$s Mode</string>
+    <string name="meter_standard_label">Standard: %1$s</string>
+
+    <!-- ========== Stats ========== -->
+    <string name="stat_max">Maximum</string>
+    <string name="stat_min">Minimum</string>
+    <string name="stat_avg">Average</string>
+    <string name="stat_duration">Duration</string>
+    <string name="stat_avg_short">Avg</string>
+    <string name="stat_max_short">Max</string>
+    <string name="stat_min_short">Min</string>
+    <string name="stat_duration_short">Time</string>
+
+    <!-- ========== History Screen ========== -->
+    <string name="history_count">%1$d records</string>
+    <string name="history_empty">🔇</string>
+    <string name="history_empty_title">No measurement records</string>
+    <string name="history_empty_hint">Tap \"Start Measurement\" to record your first measurement</string>
+    <string name="history_delete">Delete Record</string>
+    <string name="history_delete_all">Delete All</string>
+    <string name="history_delete_confirm">Delete this measurement record?</string>
+    <string name="history_delete_all_confirm">Delete all measurement records? This action cannot be undone.</string>
+    <string name="history_delete_all_action">Confirm Delete</string>
+    <string name="history_delete_all_desc">Delete all</string>
+
+    <!-- ========== AI Analysis Screen ========== -->
+    <string name="ai_analyzing">AI analyzing...</string>
+    <string name="ai_analyze_btn">AI Smart Analysis</string>
+    <string name="ai_no_record">🔇 No measurement records</string>
+    <string name="ai_no_record_hint">Please measure first in the Meter tab</string>
+    <string name="ai_current_data">📊 Current Analysis Data</string>
+    <string name="ai_switch_record">Tap to switch ›</string>
+    <string name="ai_local_mode">Local Rule Mode</string>
+    <string name="ai_local_mode_hint">No AI API configured. Basic analysis only. Tap to set up →</string>
+    <string name="ai_report_title">AI Analysis Report</string>
+    <string name="ai_section_env">🌍 Environment</string>
+    <string name="ai_section_health">💊 Health Advice</string>
+    <string name="ai_section_trend">📈 Trend Analysis</string>
+    <string name="ai_section_action">🎯 Action Advice</string>
+    <string name="ai_section_fun">🦆 Fun Fact</string>
+    <string name="ai_error_title">❌ Analysis Failed</string>
+    <string name="ai_empty_hint">🤖</string>
+    <string name="ai_empty_hint_text">Tap the button above to start AI analysis</string>
+    <string name="ai_thinking">⏳ Thinking...</string>
+    <string name="ai_chat_placeholder_on">Ask: Does this noise affect sleep?</string>
+    <string name="ai_chat_placeholder_off">Please complete AI analysis first</string>
+    <string name="ai_send">Send</string>
+    <string name="ai_summary_time">Time</string>
+    <string name="ai_summary_scene">Scene</string>
+    <string name="ai_summary_duration">Duration</string>
+
+    <!-- ========== Settings Screen ========== -->
+    <string name="settings_section_user">User</string>
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_section_ai">AI Model Settings</string>
+    <string name="settings_section_language">Language</string>
+    <string name="settings_section_about">About</string>
+    <string name="settings_nickname">Nickname</string>
+    <string name="settings_nickname_placeholder">Tap to set nickname</string>
+    <string name="settings_nickname_hint">Your nickname will appear in AI analysis reports for personalization</string>
+    <string name="settings_theme_mode">Theme Mode</string>
+    <string name="settings_theme_system">Follow System</string>
+    <string name="settings_theme_light">Light Mode</string>
+    <string name="settings_theme_dark">Dark Mode</string>
+    <string name="settings_ai_enable">Enable AI Smart Analysis</string>
+    <string name="settings_ai_enable_hint">When disabled, local rule analysis is used</string>
+    <string name="settings_ai_provider">AI Provider</string>
+    <string name="settings_api_key">API Key</string>
+    <string name="settings_api_key_placeholder">Enter API Key</string>
+    <string name="settings_api_base_url">API Base URL</string>
+    <string name="settings_api_base_url_placeholder">https://...</string>
+    <string name="settings_model_name">Model Name</string>
+    <string name="settings_model_name_placeholder">e.g. qwen-turbo</string>
+    <string name="settings_ai_hint">💡 Supports any OpenAI-compatible provider. Get API Keys from each provider\'s console. BaseUrl/Model auto-fills when switching providers, editable.</string>
+    <string name="settings_default_model">Default model: %1$s</string>
+    <string name="settings_show">Show</string>
+    <string name="settings_hide">Hide</string>
+    <string name="settings_about_app_name">App Name</string>
+    <string name="settings_about_app_value">SoundScope</string>
+    <string name="settings_about_version">Version</string>
+    <string name="settings_about_version_value">v1.4.0</string>
+    <string name="settings_about_slogan">Slogan</string>
+    <string name="settings_about_developer">Developer</string>
+    <string name="settings_about_developer_value">0xzzyyxx</string>
+    <string name="settings_about_stack">Tech Stack</string>
+    <string name="settings_about_stack_value">Kotlin + Compose + Room</string>
+    <string name="settings_about_license">License</string>
+    <string name="settings_about_license_value">AGPL v3</string>
+    <string name="settings_about_min_sdk">Minimum OS</string>
+    <string name="settings_about_min_sdk_value">Android 8.0 (API 26)</string>
+    <string name="settings_exit">Exit App</string>
+
+    <!-- ========== Language Settings ========== -->
+    <string name="lang_system">Follow System</string>
+    <string name="lang_chinese">简体中文</string>
+    <string name="lang_english">English</string>
+    <string name="lang_traditional_chinese">繁體中文</string>
+    <string name="lang_french">Français</string>
+    <string name="lang_portuguese">Português</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_hindi">हिन्दी</string>
+
+    <!-- ========== Permissions ========== -->
+    <string name="permission_title">Microphone Permission Required</string>
+    <string name="permission_message">SoundScope needs microphone permission to detect environmental noise decibels. Please grant permission to continue.</string>
+    <string name="permission_denied">Permission denied. Cannot measure decibels.</string>
+    <string name="permission_grant">Grant Permission</string>
+
+    <!-- ========== Common Dialogs ========== -->
+    <string name="dialog_exit_title">Exit App</string>
+    <string name="dialog_exit_message">Are you sure you want to exit SoundScope?</string>
+    <string name="dialog_exit">Exit</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_confirm">Confirm</string>
+
+    <!-- ========== States ========== -->
+    <string name="state_measuring">Measuring</string>
+    <string name="state_ready">Ready</string>
+
+    <!-- ========== Decibel Levels (DecibelLevel enum) ========== -->
+    <string name="db_level_silence_label">Silence</string>
+    <string name="db_level_silence_desc">Anechoic chamber</string>
+    <string name="db_level_quiet_label">Quiet</string>
+    <string name="db_level_quiet_desc">Whisper, late-night bedroom</string>
+    <string name="db_level_fairly_quiet_label">Fairly Quiet</string>
+    <string name="db_level_fairly_quiet_desc">Library, quiet office</string>
+    <string name="db_level_moderate_label">Moderate</string>
+    <string name="db_level_moderate_desc">Normal office, refrigerator hum</string>
+    <string name="db_level_average_label">Average</string>
+    <string name="db_level_average_desc">Normal conversation, light traffic</string>
+    <string name="db_level_loud_label">Loud</string>
+    <string name="db_level_loud_desc">Busy office, vacuum cleaner</string>
+    <string name="db_level_very_loud_label">Very Loud</string>
+    <string name="db_level_very_loud_desc">Busy street, washing machine</string>
+    <string name="db_level_noisy_label">Noisy</string>
+    <string name="db_level_noisy_desc">Subway, motorcycle</string>
+    <string name="db_level_extremely_loud_label">Extremely Loud</string>
+    <string name="db_level_extremely_loud_desc">Chainsaw, rock concert</string>
+    <string name="db_level_dangerous_label">Dangerous</string>
+    <string name="db_level_dangerous_desc">Airplane takeoff, gunshot</string>
+
+    <!-- ========== Scene Modes (SceneMode enum) ========== -->
+    <string name="scene_general_label">General</string>
+    <string name="scene_general_standard">WHO Environmental Noise Guidelines</string>
+    <string name="scene_general_scenario">Home, commute, and other daily environments</string>
+    <string name="scene_general_tip">Daily environments should stay below 60 dB; exceeding affects quality of life</string>
+
+    <string name="scene_sleep_label">Sleep</string>
+    <string name="scene_sleep_standard">WHO Bedroom Nighttime Standard</string>
+    <string name="scene_sleep_scenario">Bedroom, dormitory, and other sleep environments</string>
+    <string name="scene_sleep_tip">WHO recommends bedroom nighttime ≤ 30 dB; exceeding affects sleep quality</string>
+
+    <string name="scene_study_label">Study</string>
+    <string name="scene_study_standard">WHO Classroom Standard</string>
+    <string name="scene_study_scenario">Study room, classroom, library, and other study environments</string>
+    <string name="scene_study_tip">Study environments should be ≤ 35 dB; noise distracts attention</string>
+
+    <string name="scene_office_label">Office</string>
+    <string name="scene_office_standard">GB 3096 Environmental Quality Standard</string>
+    <string name="scene_office_scenario">Office, meeting room, and other work environments</string>
+    <string name="scene_office_tip">Office environments should be ≤ 50 dB; exceeding reduces work efficiency</string>
+
+    <string name="scene_construction_label">Construction</string>
+    <string name="scene_construction_standard">OSHA Occupational Noise Exposure Standard</string>
+    <string name="scene_construction_scenario">Construction sites, factory floors, and other high-noise environments</string>
+    <string name="scene_construction_tip">8-hour occupational exposure limit 85 dB; earplugs required above this</string>
+
+    <!-- ========== AI Providers (AiProvider enum) ========== -->
+    <string name="provider_qwen">Qwen (DashScope)</string>
+    <string name="provider_ernie">ERNIE (Qianfan)</string>
+    <string name="provider_zhipu">Zhipu GLM</string>
+    <string name="provider_deepseek">DeepSeek</string>
+    <string name="provider_openai">OpenAI</string>
+
+    <!-- ========== AI Local Rule Analysis ========== -->
+    <string name="local_env_level">Current environment: %1$s (%2$s), average %3$s dB</string>
+    <string name="local_health_danger">⚠️ Exceeds OSHA 8-hour occupational exposure limit (85 dB). Prolonged exposure may damage hearing. Wear earplugs immediately.</string>
+    <string name="local_health_warning">Prolonged exposure at this volume may cause irritability and reduced concentration. Stay away from the source or take noise reduction measures.</string>
+    <string name="local_health_over_limit">WHO recommends %1$s should not exceed %2$d dB. Currently over by %3$s dB.</string>
+    <string name="local_health_ok">✅ Current volume meets %1$s recommended standard (≤ %2$d dB). Healthy environment.</string>
+    <string name="local_trend_stable">Noise level is stable with minimal fluctuation.</string>
+    <string name="local_trend_moderate">Noise level has some fluctuation; environment sounds are diverse.</string>
+    <string name="local_trend_unstable">Noise level fluctuates significantly; intermittent noise sources may exist.</string>
+    <string name="local_trend_template">This measurement lasted %1$d seconds, with decibel range %2$s - %3$s dB.</string>
+    <string name="local_action_danger">Recommendations: 1) Wear noise-canceling earplugs; 2) Stay away from noise source; 3) Get hearing checkup for prolonged exposure; 4) Report to environmental authorities if necessary</string>
+    <string name="local_action_over_limit">Recommendations: 1) Close doors/windows to block outside noise; 2) Use earplugs or white noise devices; 3) Negotiate with property management or noise source; 4) Save this record as evidence</string>
+    <string name="local_action_ok">Recommendations: Current environment is comfortable. You can proceed with %1$s activities normally. No extra measures needed.</string>
+    <string name="local_fun_anechoic">Anechoic chamber level, quieter than a whisper</string>
+    <string name="local_fun_whisper">Like a soft whisper or a quiet bedroom</string>
+    <string name="local_fun_library">As quiet as a library</string>
+    <string name="local_fun_fridge">Like the hum of a running refrigerator</string>
+    <string name="local_fun_conversation">Like normal conversation or light traffic</string>
+    <string name="local_fun_office">Like a busy office or vacuum cleaner</string>
+    <string name="local_fun_street">Like a busy street or washing machine</string>
+    <string name="local_fun_subway">Like a passing subway or motorcycle</string>
+    <string name="local_fun_saw">Like a chainsaw or rock concert</string>
+    <string name="local_fun_plane">Louder than an airplane takeoff! Extremely dangerous</string>
+    <string name="local_fun_ducks">, equivalent to %1$d ducks quacking simultaneously 🦆</string>
+    <string name="local_cloud_fail">(Cloud analysis failed, fell back to local rules) </string>
+    <string name="local_cloud_ask_fail">(Cloud request failed) </string>
+    <string name="local_parse_fail">(Model returned non-JSON format)</string>
+    <string name="local_data_summary">Scene: %1$s, Average: %2$s dB, Max: %3$s dB, Min: %4$s dB, Duration: %5$d seconds</string>
+
+    <!-- Local Q&A -->
+    <string name="local_q_hearing_danger">Current average %1$.1f dB exceeds the 85 dB safety line. Prolonged exposure damages hearing. Earplugs recommended.</string>
+    <string name="local_q_hearing_safe">Current %1$.1f dB is within safe range and generally won\'t damage hearing.</string>
+    <string name="local_q_reduce">Try: close windows, use earplugs, white noise masking, negotiate with noise source, report to property/environmental authorities.</string>
+    <string name="local_q_sleep_over">WHO recommends bedroom nighttime ≤ 30 dB. Current %1$.1f dB may affect sleep quality. Noise reduction recommended.</string>
+    <string name="local_q_sleep_ok">WHO recommends bedroom nighttime ≤ 30 dB. Current %1$.1f dB is suitable for sleep.</string>
+    <string name="local_q_default">Local rule mode can only answer basic questions. Configure an AI API for smarter responses. Your current measurement averages %1$.1f dB.</string>
+
+    <!-- ========== AI Service Errors ========== -->
+    <string name="error_http">Request failed: HTTP %1$d %2$s</string>
+    <string name="error_no_choices">Response format error: missing choices</string>
+    <string name="error_no_content">Response format error: missing message.content</string>
+    <string name="error_analyze_fail">Analysis failed</string>
+    <string name="error_request_fail">Request failed</string>
+
+    <!-- ========== AI Prompts (system + user) ========== -->
+    <string name="prompt_system_zh">你是一个专业的声学环境分析师。请基于用户的噪音测量数据给出智能分析。\n严格输出 JSON 格式，字段如下：\n{\n  \"environmentLevel\": \"环境评估描述，例如：相当于繁忙咖啡厅\",\n  \"healthAdvice\": \"健康建议，引用 WHO 或国标阈值\",\n  \"trendAnalysis\": \"本次测量的波动分析（无历史数据时基于本次）\",\n  \"actionAdvice\": \"具体的行动建议\",\n  \"funFact\": \"趣味解读，可用比喻\"\n}\n只输出 JSON，不要 markdown 代码块，不要额外解释。</string>
+    <string name="prompt_user_zh">测量数据：\n- 场景：%1$s（推荐最大 %2$d dB）\n- 平均分贝：%3$s dB\n- 最大分贝：%4$s dB\n- 最小分贝：%5$s dB\n- 测量时长：%6$d 秒\n- 时间序列采样：%7$s\n\n请分析。</string>
+    <string name="prompt_data_summary_zh">以下是已分析的测量数据：\n%1$s</string>
+
+    <string name="prompt_system_en">You are a professional acoustic environment analyst. Analyze the user\'s noise measurement data.\nOutput strictly in JSON format with these fields:\n{\n  \"environmentLevel\": \"environment assessment, e.g., equivalent to a busy cafe\",\n  \"healthAdvice\": \"health advice citing WHO or national standards\",\n  \"trendAnalysis\": \"fluctuation analysis of this measurement\",\n  \"actionAdvice\": \"specific actionable recommendations\",\n  \"funFact\": \"fun interpretation, can use metaphors\"\n}\nOutput JSON only, no markdown code blocks, no extra explanation.</string>
+    <string name="prompt_user_en">Measurement data:\n- Scene: %1$s (recommended max %2$d dB)\n- Average: %3$s dB\n- Maximum: %4$s dB\n- Minimum: %5$s dB\n- Duration: %6$d seconds\n- Time series samples: %7$s\n\nPlease analyze.</string>
+    <string name="prompt_data_summary_en">The following is the analyzed measurement data:\n%1$s</string>
+</resources>
