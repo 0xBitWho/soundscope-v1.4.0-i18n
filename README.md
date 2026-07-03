@@ -45,7 +45,7 @@
 ## 🚀 下载安装 / Download & Install
 
 ### 方式一：直接下载 APK / Direct APK Download
-从 [Releases](../../releases) 页面下载最新 `SoundScope-v1.4.0-Release-Signed.apk`，允许"安装未知来源应用"后安装。
+从(https://github.com/0xBitWho/soundscope-v1.4.0-i18n/blob/main/SoundScope-v1.4.0-Release-Signed.apk) 页面下载最新 `SoundScope-v1.4.0-Release-Signed.apk`，允许"安装未知来源应用"后安装。
 
 Download the latest `SoundScope-v1.4.0-Release-Signed.apk` from the [Releases](../../releases) page. Enable "Install from unknown sources" and install.
 
@@ -150,7 +150,7 @@ This project is licensed under the [GNU Affero General Public License v3.0](LICE
 **0xBitWho**
 
 - GitHub: [@0xBitWho](https://github.com/0xBitWho/))
-- Gitee: [@0xzzyyxx](https://gitee.com/0xzzyyxx)
+- Gitee: [@shawnhuhu](https://gitee.com/shawnhuhu/soundscope-v1.4.0-i18n)
 
 ---
 
