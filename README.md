@@ -51,7 +51,7 @@ Download the latest `SoundScope-v1.4.0-Release-Signed.apk` from the [Releases](.
 
 ### 方式二：从源码构建 / Build from Source
 ```bash
-git clone https://github.com/0xzzyyxx/soundscope.git
+git clone https://github.com/0xBitWho/soundscope-v1.4.0-i18n/blob/main/.gitignore
 cd soundscope
 ./gradlew assembleRelease
 ```
