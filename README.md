@@ -147,9 +147,9 @@ This project is licensed under the [GNU Affero General Public License v3.0](LICE
 
 ## 👨‍💻 开发者 / Developer
 
-**0xzzyyxx**
+**0xBitWho**
 
-- GitHub: [@0xzzyyxx](https://github.com/0xzzyyxx)
+- GitHub: [@0xBitWho](https://github.com/0xBitWho/))
 - Gitee: [@0xzzyyxx](https://gitee.com/0xzzyyxx)
 
 ---
@@ -178,8 +178,8 @@ Issues and Pull Requests are welcome!
 
 ## 📞 联系方式 / Contact
 
-- 提交 Issue: [GitHub Issues](../../issues)
-- 邮箱 / Email: 通过 GitHub 联系 / Contact via GitHub
+- 提交 Issue: [GitHub Issues](https://github.com/0xBitWho/soundscope-v1.4.0-i18n/issues)
+- 邮箱 / Email: shawnhuhu@hotmail.com 通过 GitHub 联系 / Contact via GitHub https://github.com/0xBitWho/
 
 ---
 
